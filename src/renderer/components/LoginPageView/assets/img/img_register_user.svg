@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>cover img_register_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M31.3967006,35.8481109 C32.6127938,41.0380384 35.1022458,46.5903117 38.8482032,49.9092804 C38.8131583,50.4220174 38.6501448,52.4221819 38.1600154,53.8835778 C20.4551934,57.5602017 1,71.4195363 1,87.9550362 C1,87.9700263 1.00001599,87.9850143 1.00004795,88 L91.8582364,88 C91.8582639,87.9850143 91.8582793,87.9700263 91.8582793,87.9550362 C91.8582793,71.1076806 72.4194739,57.0383858 54.6511931,53.6864729 C54.3116397,52.7761815 54.0565973,51.4519144 54.2239953,49.6212742 C54.0947982,49.7311724 53.9659864,49.8377764 53.837578,49.9411606 C57.5786053,46.6369004 60.0071742,41.0790303 61.2170023,35.7954159 C61.300111,35.8281359 61.385858,35.8509585 61.4741088,35.8633613 C62.9209042,36.0666952 64.4927598,33.3925242 64.9849466,29.8904333 C65.4771333,26.3883424 64.7032702,23.3845021 63.2564748,23.1811683 C63.1637985,23.1681435 63.070609,23.1669256 62.9772231,23.1769761 C65.6412322,11.2701994 60.6374539,0 46.328262,0 C32.0232964,2.96753057e-15 27.2673603,11.3086114 29.8166181,23.177831 C29.7206527,23.1668676 29.6248856,23.1677852 29.5296603,23.1811683 C28.0828649,23.3845021 27.3090017,26.3883424 27.8011885,29.8904333 C28.2933752,33.3925242 29.8652309,36.0666952 31.3120263,35.8633613 C31.3405134,35.8593577 31.3687397,35.8542684 31.3967006,35.8481109 Z" id="path-1"></path>
+        <filter x="-3.9%" y="-2.8%" width="107.7%" height="144.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-43.8%" y="-31.2%" width="193.8%" height="193.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_USER-ID" transform="translate(-6077.000000, -7313.000000)">
+            <g id="Page_-sign-in-or-register02" transform="translate(5297.000000, 6973.000000)">
+                <g id="login-or-register" transform="translate(240.000000, 154.000000)">
+                    <g id="right" transform="translate(400.000000, 0.000000)">
+                        <g id="icon_register_selected" transform="translate(122.000000, 186.000000)">
+                            <g id="cover-img_register_selected">
+                                <g transform="translate(18.000000, 0.000000)">
+                                    <g transform="translate(14.000000, 16.000000)">
+                                        <g id="Combined-Shape" opacity="0.1">
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        </g>
+                                        <g id="+" filter="url(#filter-3)" transform="translate(0.000000, 2.000000)">
+                                            <path d="M16,8 C16,3.581722 12.418278,0 8,0 C3.581722,0 0,3.581722 0,8 C0,12.418278 3.581722,16 8,16 L16,16 L16,8 Z" id="Combined-Shape" fill="#D8D8D8" opacity="0.1"></path>
+                                            <path d="M8.5,6 L8.5,11" id="Line" stroke="#A2A2A2" stroke-linecap="square" transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000) "></path>
+                                            <path d="M8.5,6 L8.5,11" id="Line" stroke="#A2A2A2" stroke-linecap="square" transform="translate(8.500000, 8.500000) scale(-1, 1) rotate(-90.000000) translate(-8.500000, -8.500000) "></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

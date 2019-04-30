@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_edit_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_USER-ID" transform="translate(-4116.000000, -633.000000)">
+            <g id="New-Profile_Import-page" transform="translate(4041.000000, 240.000000)">
+                <g id="Project-buttons" transform="translate(12.000000, 386.000000)">
+                    <g id="btn_Pointspen">
+                        <g id="icon_edit_selected" transform="translate(63.000000, 7.000000)">
+                            <g transform="translate(3.000000, 5.000000)">
+                                <rect id="Rectangle-32-Copy" fill="#FFFFFF" transform="translate(15.164268, 13.164579) rotate(-360.000000) translate(-15.164268, -13.164579) " x="14.4133308" y="12.4145792" width="1.50187504" height="1.5"></rect>
+                                <rect id="Rectangle-32-Copy" fill="#FFFFFF" transform="translate(12.164268, 13.164579) rotate(-360.000000) translate(-12.164268, -13.164579) " x="11.4133308" y="12.4145792" width="1.50187504" height="1.5"></rect>
+                                <rect id="Rectangle-32-Copy" fill="#FFFFFF" x="0.413330762" y="12.4145792" width="1.50187504" height="1.5"></rect>
+                                <g id="Icon_Edit-Copy-4" transform="translate(4.000000, 0.000000)">
+                                    <polygon id="Path-5" stroke="#DCA894" fill="#DCA894" points="10 2 2 9 4.54950976 11.5495098 12 4"></polygon>
+                                    <path d="M4.05916417,13.4 L13.1514719,4.30769231 L9.69230769,0.848528137 L0.6,9.94083583 L0.6,13.4 L4.05916417,13.4 Z" id="Rectangle-3" stroke="#FFFFFF" stroke-width="1.2"></path>
+                                    <path d="M1.38827522,9.76121456 L4.36079379,12.8103614" id="Path-139" stroke="#FFFFFF" stroke-width="1.2"></path>
+                                    <path d="" id="Path-3" stroke="#979797"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

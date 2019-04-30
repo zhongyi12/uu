@@ -1,0 +1,194 @@
+stages:
+  - build
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+cache:
+  paths:
+    - node_modules/
+
+build:mac-beta:
+  stage: build
+  before_script:
+    - python -m pip install virtualenv
+    - virtualenv --no-site-packages --python=`which python3` uarmcore-env
+    - source uarmcore-env/bin/activate
+    - cd uarmcore/pyuarm
+    - python setup.py install
+    - cd ..
+    - pip install -r requirements.txt
+    - pip install pyinstaller
+    - pyinstaller build.spec --clean
+    - cd ..
+    - cp uarmcore/dist/uarmcore resources/bin/mac/uarmcore/
+    - curl -o resources/bin/mac/avrdude.zip http://uarm.studio/releases/avrdude/avrdude-mac.zip
+    - curl -o resources/bin/mac/uarmvision/uarmvision http://uarm.studio/releases/uarmvision/uarmvision-mac
+    - chmod u+x resources/bin/mac/uarmvision/uarmvision
+    - unzip resources/bin/mac/avrdude.zip -d resources/bin/mac/
+    - yarn install
+  script:
+    - yarn run pack:beta && yarn run build:beta
+    - scp build/*.dmg publisher@gitlab:/var/www/html/releases/studio/
+  tags:
+    - mac
+  only:
+    - beta
+
+build:mac-production:
+  stage: build
+  before_script:
+    - python -m pip install virtualenv
+    - virtualenv --no-site-packages --python=`which python3` uarmcore-env
+    - source uarmcore-env/bin/activate
+    - cd uarmcore/pyuarm
+    - python setup.py install
+    - cd ..
+    - pip install -r requirements.txt
+    - pip install pyinstaller
+    - pyinstaller build.spec --clean
+    - cd ..
+    - cp uarmcore/dist/uarmcore resources/bin/mac/uarmcore/
+    - curl -o resources/bin/mac/avrdude.zip http://uarm.studio/releases/avrdude/avrdude-mac.zip
+    - curl -o resources/bin/mac/uarmvision/uarmvision http://uarm.studio/releases/uarmvision/uarmvision-mac
+    - chmod u+x resources/bin/mac/uarmvision/uarmvision
+    - unzip resources/bin/mac/avrdude.zip -d resources/bin/mac/
+    - yarn install
+  script:
+    - yarn run pack:prod && yarn run build:prod
+    - scp build/*.dmg publisher@gitlab:/var/www/html/releases/studio/
+  tags:
+    - mac
+  only:
+    - production-new
+
+build:linux-beta:
+  stage: build
+  before_script:
+    - python -m pip install virtualenv
+    - virtualenv --no-site-packages --python=`which python3` uarmcore-env
+    - source uarmcore-env/bin/activate
+    - cd uarmcore/pyuarm
+    - python setup.py install
+    - cd ..
+    - pip install -r requirements.txt
+    - pip install pyinstaller
+    - pyinstaller build.spec --clean
+    - cd ..
+#    - mkdir resources/bin/mac/uarmcore
+    - cp uarmcore/dist/uarmcore resources/bin/linux/uarmcore/
+    - curl -o resources/bin/linux/avrdude.zip http://uarm.studio/releases/avrdude/avrdude-linux.zip
+    - curl -o resources/bin/linux/uarmvision/uarmvision http://uarm.studio/releases/uarmvision/uarmvision-linux
+    - chmod u+x resources/bin/linux/uarmvision/uarmvision
+    - unzip resources/bin/linux/avrdude.zip -d resources/bin/linux/
+    - yarn install
+  script:
+    - yarn run pack:beta && yarn run build:beta
+    - scp build/*.AppImage publisher@gitlab:/var/www/html/releases/studio/
+  tags:
+    - linux
+  only:
+    - beta
+
+build:linux-prod:
+  stage: build
+  before_script:
+    - python -m pip install virtualenv
+    - virtualenv --no-site-packages --python=`which python3` uarmcore-env
+    - source uarmcore-env/bin/activate
+    - cd uarmcore/pyuarm
+    - python setup.py install
+    - cd ..
+    - pip install -r requirements.txt
+    - pip install pyinstaller
+    - pyinstaller build.spec --clean
+    - cd ..
+    - cp uarmcore/dist/uarmcore resources/bin/linux/uarmcore/
+    - curl -o resources/bin/linux/avrdude.zip http://uarm.studio/releases/avrdude/avrdude-linux.zip
+    - curl -o resources/bin/linux/uarmvision/uarmvision http://uarm.studio/releases/uarmvision/uarmvision-linux
+    - chmod u+x resources/bin/linux/uarmvision/uarmvision
+    - unzip resources/bin/linux/avrdude.zip -d resources/bin/linux/
+    - yarn install
+  script:
+    - yarn run pack:prod && yarn run build:prod
+    - scp build/*.AppImage publisher@gitlab:/var/www/html/releases/studio/
+  tags:
+    - linux
+  only:
+    - production-new
+
+build:win-beta:
+  stage: build
+  before_script:
+    - cd uarmcore\pyuarm
+    - python setup.py install
+    - cd ..
+    - pip install -r requirements.txt
+    - pyinstaller build.spec --clean
+    - cd ..
+    - cp uarmcore\dist\uarmcore.exe resources\bin\win\uarmcore\
+    - curl -o resources/bin/win/uarmvision/uarmvision.exe http://uarm.studio/releases/uarmvision/uarmvision-win
+    - curl -o resources/bin/win/avrdude.zip http://uarm.studio/releases/avrdude/avrdude-win.zip
+    - curl -o resources/bin/win/driver.zip http://uarm.studio/releases/driver/driver-win.zip
+    - curl -o resources/bin/win/vc++.zip http://uarm.studio/releases/vc++/vc++.zip
+    - unzip resources/bin/win/driver.zip -d resources/bin/win/
+    - unzip resources/bin/win/avrdude.zip -d resources/bin/win/
+    - unzip resources/bin/win/vc++.zip -d resources/bin/win/
+    - yarn install
+  script:
+    - yarn run pack:prod
+    - yarn run build:prod
+    - cd build
+    - scp *.exe publisher@gitlab:/var/www/html/releases/studio/
+  tags:
+    - win
+  only:
+    - beta
+build:win-prod:
+  stage: build
+  before_script:
+    - cd uarmcore\pyuarm
+    - python setup.py install
+    - cd ..
+    - pip install -r requirements.txt
+    - pyinstaller build.spec --clean
+    - cd ..
+    - cp uarmcore\dist\uarmcore.exe resources\bin\win\uarmcore\
+    - curl -o resources/bin/win/uarmvision/uarmvision.exe http://uarm.studio/releases/uarmvision/uarmvision-win
+    - curl -o resources/bin/win/avrdude.zip http://uarm.studio/releases/avrdude/avrdude-win.zip
+    - curl -o resources/bin/win/driver.zip http://uarm.studio/releases/driver/driver-win.zip
+    - curl -o resources/bin/win/vc++.zip http://uarm.studio/releases/vc++/vc++.zip
+    - unzip resources/bin/win/driver.zip -d resources/bin/win/
+    - unzip resources/bin/win/avrdude.zip -d resources/bin/win/
+    - unzip resources/bin/win/vc++.zip -d resources/bin/win/
+    - yarn install
+  script:
+    - yarn run pack:prod
+    - yarn run build:prod
+    - cd build
+    - scp *.exe publisher@gitlab:/var/www/html/releases/studio/
+  tags:
+    - win
+  only:
+    - production-new
+
+#build:win-test:
+#  stage: build
+#  before_script:
+#    - cd uarmcore\pyuarm
+#    - python setup.py install
+#    - cd ..
+#    - pip install -r requirements.txt
+#    - pyinstaller build.spec --clean
+#    - cd ..
+##    - if not exist resources\bin\win\uarmcore mkdir resources\bin\win\uarmcore
+#    - cp uarmcore\dist\uarmcore.exe resources\bin\win\uarmcore\
+#    - curl -o resources/bin/win/uarmvision/uarmvision.exe http://uarm.studio/releases/uarmvision/uarmvision-win
+#    - yarn install
+#  script:
+#    - yarn run pack:beta
+#    - yarn run build:beta
+#    - cd build\beta
+#    - scp *.exe publisher@gitlab:/var/www/html/releases/studio/
+#  tags:
+#    - win
+#  only:
+#    - dev

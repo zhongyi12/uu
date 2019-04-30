@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="118px" height="111px" viewBox="0 0 118 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>last page_teach&amp;play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.7%" y="-0.9%" width="103.4%" height="103.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-895.000000, -1526.000000)">
+            <g id="12th（copy）" transform="translate(309.000000, 1080.000000)">
+                <g id="Group" transform="translate(200.000000, 235.000000)">
+                    <g id="Icon_Teach&amp;Play" filter="url(#filter-1)" transform="translate(386.000000, 211.000000)">
+                        <g id="last-page_teach&amp;play" transform="translate(1.000000, 1.000000)">
+                            <path d="M23.8126388,7.78567795 C23.8126388,7.78567795 47.0365222,0.141010119 65.18196,5.47949934 C82.8402643,10.6746712 93.6573186,20.6201175 98.2538947,26.4051042" id="Path-80" stroke="#BFBFBF" stroke-width="1.125" stroke-dasharray="1.125,1.125"></path>
+                            <path d="M93.5156868,40.2574552 L42.6252976,65.0059734" id="Path-81" stroke="#91B4DD" stroke-width="1.125" stroke-dasharray="2.25"></path>
+                            <path d="M39.1903343,65.0059734 L77.3743059,104.325574" id="Path-82" stroke="#91B4DD" stroke-width="1.125"></path>
+                            <ellipse id="Oval-13" stroke="#BFBFBF" stroke-width="1.125" cx="12.0223715" cy="12.0111237" rx="12.0223715" ry="12.0111237"></ellipse>
+                            <path d="M104.209621,47.1806461 C110.849394,47.1806461 116.231993,41.8030828 116.231993,35.1695224 C116.231993,28.5359619 110.849394,23.1583987 104.209621,23.1583987 C97.5698486,23.1583987 92.1872496,28.5359619 92.1872496,35.1695224 C92.1872496,41.8030828 97.5698486,47.1806461 104.209621,47.1806461 Z" id="Oval-13-Copy" stroke="#BFBFBF" stroke-width="1.125"></path>
+                            <path d="M40.2837634,78.2772086 C46.9235358,78.2772086 52.3061349,72.8996454 52.3061349,66.2660849 C52.3061349,59.6325245 46.9235358,54.2549612 40.2837634,54.2549612 C33.6439909,54.2549612 28.2613918,59.6325245 28.2613918,66.2660849 C28.2613918,72.8996454 33.6439909,78.2772086 40.2837634,78.2772086 Z" id="Oval-13-Copy-2" stroke="#91B4DD" stroke-width="1.125" fill="#3C3C3C"></path>
+                            <path d="M40.3012883,73.2958773 C44.095444,73.2958773 47.1712149,70.2229841 47.1712149,66.4323781 C47.1712149,62.6417721 44.095444,59.5688788 40.3012883,59.5688788 C36.5071326,59.5688788 33.4313617,62.6417721 33.4313617,66.4323781 C33.4313617,70.2229841 36.5071326,73.2958773 40.3012883,73.2958773 Z" id="Oval-13-Copy-2" fill="#7DB2F0"></path>
+                            <path d="M11.9259421,18.9222091 C15.7200978,18.9222091 18.7958687,15.8493158 18.7958687,12.0587098 C18.7958687,8.26810385 15.7200978,5.19521056 11.9259421,5.19521056 C8.13178643,5.19521056 5.05601553,8.26810385 5.05601553,12.0587098 C5.05601553,15.8493158 8.13178643,18.9222091 11.9259421,18.9222091 Z" id="Oval-13-Copy-2" fill="#BFBFBF"></path>
+                            <polygon id="Path-83" fill="#91B4DD" transform="translate(75.856895, 102.904744) rotate(-90.000000) translate(-75.856895, -102.904744) " points="73.1147093 96.4909631 69.5257857 109.318526 82.1880034 105.565853"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

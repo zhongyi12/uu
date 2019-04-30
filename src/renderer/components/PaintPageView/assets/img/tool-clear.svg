@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="22px" viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>btn_clear</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="写字作图_插入文字" transform="translate(-942.000000, -852.000000)">
+            <g id="画图" transform="translate(117.000000, 150.000000)">
+                <g id="buttons" transform="translate(391.000000, 686.000000)">
+                    <g id="btn_clear" transform="translate(433.000000, 16.000000)">
+                        <g transform="translate(1.000000, 0.000000)">
+                            <path d="M19.2715168,6.08810157 L17.1501964,8.20942191 L16.4430896,8.91652869 L17.1501964,9.62363548 L19.5857864,12.0592255 L16.0502525,15.5947594 L6.1507576,5.69526447 L9.6862915,2.15973056 L12.1218815,4.59532059 L12.8289883,5.30242737 L13.5360951,4.59532059 L15.6574154,2.47400024 L19.2715168,6.08810157 Z" id="Combined-Shape" stroke="#787878" stroke-width="2"></path>
+                            <path d="M2.98928184,14.7754734 L14.9892818,14.7754734 L14.9892818,10.7754734 L2.98928184,10.7754734 L2.98928184,14.7754734 Z M0.989281841,8.77547344 L16.9892818,8.77547344 L16.9892818,16.7754734 L0.989281841,16.7754734 L0.989281841,8.77547344 Z" id="Rectangle-31" fill="#787878" fill-rule="nonzero" transform="translate(8.989282, 12.775473) rotate(-315.000000) translate(-8.989282, -12.775473) "></path>
+                            <path d="M2.64114875,12.0972653 L4.64114875,12.0972653 L4.64114875,16.0972653 L2.64114875,16.0972653 L2.64114875,12.0972653 Z M6.64114875,12.0972653 L8.64114875,12.0972653 L8.64114875,16.0972653 L6.64114875,16.0972653 L6.64114875,12.0972653 Z M10.6411488,12.0972653 L12.6411488,12.0972653 L12.6411488,16.0972653 L10.6411488,16.0972653 L10.6411488,12.0972653 Z" id="Combined-Shape" fill="#787878" transform="translate(7.641149, 14.097265) rotate(-315.000000) translate(-7.641149, -14.097265) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+.idea/
+node_modules/
+bower_components/
+build/
+dist/
+*.log.*
+resources/bin/mac/uarmcore/
+resources/bin/win/uarmcore/uarmcore.exe
+resources/bin/linux/uarmcore/uarmcore
+resources/bin/mac/*.zip
+resources/bin/linux/*.zip
+resources/bin/win/*.zip
+# resources/bin/mac/uarmvision/uarmvision
+# resources/bin/mac/avrdude/
+# resources/bin
+# resources/bin/*
+uarmcore-env/
+.development
+.upload/
+build
+*.pyc
+__pycache__/
+.DS_Store
+build
+builds/
+cache/
+.qiniu_pythonsdk_hostscache.json
+.vscode/

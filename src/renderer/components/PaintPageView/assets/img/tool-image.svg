@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>btn_img</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="写字作图_插入文字" transform="translate(-755.000000, -855.000000)" fill="#787878">
+            <g id="画图" transform="translate(117.000000, 150.000000)">
+                <g id="buttons" transform="translate(391.000000, 686.000000)">
+                    <g id="btn_image" transform="translate(242.000000, 19.000000)">
+                        <g id="btn_img" transform="translate(5.000000, 0.000000)">
+                            <path d="M2,14 L16,14 L16,2 L2,2 L2,14 Z M0,0 L18,0 L18,16 L0,16 L0,0 Z" id="Rectangle-8" fill-rule="nonzero"></path>
+                            <polygon id="Path-3" fill-rule="nonzero" points="8.63743401 11.0910405 11.2281264 10.0163363 16.2558717 12.6872226 17.1941539 10.9209762 11.3332262 7.80747876 8.91412681 8.81100056 5.09110768 5.99564029 0.125730761 10.8738442 1.52736533 12.3005258 5.2772221 8.61650221"></polygon>
+                            <circle id="Oval-2" cx="12.5" cy="5.5" r="1.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

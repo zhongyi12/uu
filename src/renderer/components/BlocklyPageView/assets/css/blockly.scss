@@ -1,0 +1,55 @@
+.blockly-workspace {
+  .blocklyTreeLabel {
+    font-size: 14px;
+  }
+  .blocklyText {
+    font-size: 14px;
+    font-family:'Gotham-Book' ;
+  }
+  .blocklyFlyoutLabelText {
+    font-size: 12px;
+  }
+  .blocklyTreeIcon {
+    background-image:url("../img/blockly_icons.png") ;
+  }
+  .blocklyToolboxDiv .blocklyTreeRow {
+    width: 114px;
+    position:relative;
+    font-family: Gotham-Book;
+    height:42px;
+    line-height:42px;
+    padding-bottom:3px;
+    padding-right:8px;
+    margin-bottom:0;
+    .blocklyTreeIconClosedLtr,.blocklyTreeIconOpen,.blocklyTreeIconNone, .blocklyTreeSelected>.blocklyTreeIconNone {
+      position:absolute;
+      right: 6px;
+      top: 16px;
+    }
+    .blocklyTreeLabel {
+      padding-left:16px;
+      font-family: Gotham-Book;
+      font-weight: 100;
+    }
+  }
+}
+
+.blocklyWidgetDiv{
+  overflow:visible;
+  position:fixed;
+}
+.blocklyCommentTextarea {
+  position: fixed;
+}
+.blocklyToolboxDiv{
+  background-color:rgba(255,255,255,0.7);
+}
+.blocklySvg {
+  overflow: visible !important;
+}
+svg:not(:root) {
+  overflow: visible !important;
+}
+.blocklyTooltipDiv {
+  height: auto !important;
+}

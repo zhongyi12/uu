@@ -1,0 +1,33 @@
+requirements:
+    1. tornado 4.4.2
+    2. opencv 3.1
+    3. pyserial 3.1
+install tips:
+1. install python3 (Macosx, up to 3.6)
+    brew install python3
+2. install opencv 3.1 (MacosX)
+    brew install homebrew/science/opencv3 --HEAD --with-python3 --with-ffmpeg --with-tbb --with-contrib
+3. install virtualenv
+    pip3 install virtualenv virtualenvwrapper
+4. new a virtual env
+    source `which virtualenvwrapper.sh`
+    mkvirtualenv uarm_server --python=`which python3` --no-site-packages
+5. link opencv lib to python library
+    ln -s /usr/local/opt/opencv3/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so ~/.virtualenvs/uarm_server/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so
+6. enter virtual env uarm_server
+    workon uarm_server
+7. install numpy to virtual env
+    pip install numpy
+8. install tornado
+    pip install tornado
+9. install pyserial
+    pip install pyserial
+
+
+package & compile
+1. workon uarm_server
+2. install pyinstaller
+    pip install pyinstaller
+3. enter server folder
+    pyinstaller build.spec --clean
+4. Executable file will be available in dist folder

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>img_default user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_USER-ID" transform="translate(-7070.000000, -3393.000000)">
+            <g id="Profile_Edit-Profile(copy)" transform="translate(6944.000000, 3260.000000)">
+                <g id="user-image" transform="translate(125.000000, 133.000000)">
+                    <g id="img_default-user" transform="translate(1.000000, 0.000000)">
+                        <g>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#252525" xlink:href="#path-1"></use>
+                            <path d="M29.9964107,20.2598776 L22.6764706,24.470556 L22.6764706,32.8823852 L29.9964107,37.0930636 L37.3163508,32.8823852 L37.3163508,24.470556 L29.9964107,20.2598776 Z" id="Polygon-Copy-4" stroke="#D95E2E" stroke-width="3" mask="url(#mask-2)" transform="translate(29.996411, 28.676471) scale(1, -1) translate(-29.996411, -28.676471) "></path>
+                            <rect id="Rectangle-30" fill="#D95E2E" mask="url(#mask-2)" x="23.8235294" y="42.3529412" width="12.3529412" height="2.64705882"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_USER-ID" transform="translate(-2939.000000, -54.000000)" fill="#FFFFFF">
+            <g id="btn_Topright" transform="translate(2739.000000, 53.972534)">
+                <g id="icon_camera" transform="translate(205.000000, 5.000000)">
+                    <g>
+                        <path d="M16.3636364,2.5422767 L16.3636364,16.434003 L1.63636364,16.434003 L1.63636364,2.5422767 L16.3636364,2.5422767 Z M0,0.998751561 L0,1.77051413 L0,17.2057655 L0,17.9775281 L0.818181818,17.9775281 L17.1818182,17.9775281 L18,17.9775281 L18,17.2057655 L18,1.77051413 L18,0.998751561 L17.1818182,0.998751561 L0.818181818,0.998751561 L0,0.998751561 Z" id="Rectangle-28" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-29" transform="translate(14.168242, 5.325101) rotate(-90.000000) translate(-14.168242, -5.325101) " x="13.6682422" y="4.32634985" width="1" height="1.99750312"></rect>
+                        <path d="M9,13.9825218 C6.790861,13.9825218 5,12.1938966 5,9.98751561 C5,7.78113458 6.790861,5.99250936 9,5.99250936 C11.209139,5.99250936 13,7.78113458 13,9.98751561 C13,12.1938966 11.209139,13.9825218 9,13.9825218 Z M8.99898092,12.4830447 C10.3796928,12.4830447 11.4989809,11.3651539 11.4989809,9.98616578 C11.4989809,8.60717764 10.3796928,7.48928687 8.99898092,7.48928687 C7.61826905,7.48928687 6.49898092,8.60717764 6.49898092,9.98616578 C6.49898092,11.3651539 7.61826905,12.4830447 8.99898092,12.4830447 Z" id="Combined-Shape"></path>
+                        <rect id="Rectangle-9" x="4" y="0" width="3" height="1.99750312"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

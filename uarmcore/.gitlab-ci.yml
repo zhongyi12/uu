@@ -1,0 +1,67 @@
+stages:
+  - build
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build:mac:
+  stage: build
+  before_script:
+  - source /Users/ufactory/.virtualenvs/uarmcore-beta/bin/activate
+  script:
+  - cd pyuarm
+  - python setup.py install
+  - cd ..
+  - pyinstaller build.spec --clean
+  - export VERSION=`python version.py`
+  - scp dist/uarmcore publisher@gitlab:/var/www/html/releases/uarmcore/uarmcore-mac-beta-$VERSION
+  artifacts:
+    paths:
+    - dist/uarmcore
+    expire_in: 1 hour
+  tags:
+  - mac
+  - beta
+  only:
+  - beta
+
+build:win:
+  stage: build
+  script:
+  - cd pyuarm
+  - python setup.py install
+  - cd ..
+  - pyinstaller build.spec --clean
+  - python -c "import version;import os;os.rename('dist/uarmcore.exe', 'dist/uarmcore-win-beta-{}.exe'.format(version.__version__))"
+  - scp dist/*.exe publisher@gitlab:/var/www/html/releases/uarmcore/
+  artifacts:
+    paths:
+    - dist/*.exe
+    expire_in: 1 hour
+  tags:
+  - win
+  - beta
+  only:
+  - beta
+
+build:linux:
+  stage: build
+  before_script:
+  - source /home/ufactory/.virtualenvs/uarmcore-beta/bin/activate
+  script:
+  - cd pyuarm
+  - python setup.py install
+  - cd ..
+  - pyinstaller build.spec --clean
+  - export VERSION=`python version.py`
+  - scp dist/uarmcore publisher@gitlab:/var/www/html/releases/uarmcore/uarmcore-linux-beta-$VERSION
+  artifacts:
+    paths:
+    - dist/uarmcore
+    expire_in: 1 hour
+  tags:
+  - linux
+  - beta
+  only:
+  - beta
+
+

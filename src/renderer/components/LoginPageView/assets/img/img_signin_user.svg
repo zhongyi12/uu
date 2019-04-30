@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>cover img_login_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M30.4440392,35.8477946 C31.6620022,41.0378128 34.1553622,46.5902442 37.9072388,49.9092804 C37.8721393,50.4220174 37.7088715,52.4221819 37.2179775,53.8835778 C19.4855396,57.5602017 5.68434189e-14,71.4195363 5.68434189e-14,87.9550362 C5.68434189e-14,87.9700263 1.60136101e-05,87.9850143 4.80250072e-05,88 L90.9999571,88 C90.9999846,87.9850143 91,87.9700263 91,87.9550362 C91,71.1076806 71.530874,57.0383858 53.7348782,53.6864729 C53.3947952,52.7761815 53.139355,51.4519144 53.3070141,49.6212742 C53.1776155,49.7311724 53.0486028,49.8377764 52.919994,49.9411606 C56.6669872,46.6367853 59.0993831,41.0786429 60.3110555,35.7948636 C60.3946905,35.8278672 60.4809931,35.8508766 60.5698263,35.8633613 C62.0188785,36.0670123 63.5925635,33.3930985 64.0847503,29.8910075 C64.5769371,26.3889166 63.8012445,23.3848193 62.3521923,23.1811683 C62.2598449,23.1681897 62.1669912,23.1668982 62.0739435,23.1767634 C64.7419999,11.2700653 59.7303911,0 45.398965,0 C31.0717766,2.96751192e-15 26.308392,11.3084692 28.8615182,23.1776072 C28.765887,23.1668357 28.6704517,23.1678308 28.5755509,23.1811683 C27.1264988,23.3848193 26.3508062,26.3889166 26.8429929,29.8910075 C27.3351797,33.3930985 28.9088648,36.0670123 30.3579169,35.8633613 C30.3868957,35.8592886 30.4156053,35.8540959 30.4440408,35.8478016 Z" id="path-1"></path>
+        <filter x="-3.8%" y="-2.8%" width="107.7%" height="144.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="Studio_USER-ID" transform="translate(-4310.000000, -7313.000000)">
+            <g id="Page_-sign-in-or-register01" transform="translate(3930.000000, 6973.000000)">
+                <g id="login-or-register" transform="translate(240.000000, 154.000000)">
+                    <g id="Left">
+                        <g id="icon_sign-in" transform="translate(139.000000, 186.000000)">
+                            <g id="icon_sign-in_selected">
+                                <g id="img_login_dark" transform="translate(1.000000, 0.000000)">
+                                    <g id="cover-img_login_dark" transform="translate(15.000000, 16.000000)">
+                                        <g id="Combined-Shape">
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

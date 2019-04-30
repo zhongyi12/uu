@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_Notification</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图专用" transform="translate(-241.000000, -118.000000)">
+            <g id="popout_Ueser-center" transform="translate(241.000000, 84.000000)">
+                <g id="icon_Notification" transform="translate(4.422989, 40.030895)">
+                    <g>
+                        <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.2" x="0.146504589" y="0.334861445" width="14.4535183" height="10.5530089"></rect>
+                        <polygon id="Rectangle-32" fill="#FFFFFF" points="4.51091107 4.9576384 5.32571766 5.57163921 3.27904838 8.28766107 2.46424179 7.67366027"></polygon>
+                        <polygon id="Rectangle-32" fill="#FFFFFF" points="10.080704 4.9576384 9.26589744 5.57163921 11.3125667 8.28766107 12.1273733 7.67366027"></polygon>
+                        <polyline id="Path-16" stroke="#FFFFFF" stroke-width="1.2" points="2.94693982 2.55062087 7.40078798 5.95144869 11.8364977 2.57185237"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

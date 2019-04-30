@@ -1,0 +1,110 @@
+{
+  "publish": {
+    "name": "uArmStudio",
+    "channel": "prod",
+    "category": "software",
+    "remoteUrl": "http://update.ufactory.cc/releases/studio"
+  },
+  "transports": [
+    {
+      "accessKey": "g2U1VIVROURlpRqkFMe119HznYOp-mop5jobBrw1",
+      "bucketName": "update",
+      "module": "qiniu",
+      "refreshToken": "0UWc-rtrlHuvqtl39zDqgDqnOW0=",
+      "remotePath": "releases/studio/",
+      "secretKey": "mgp_EwYwbcz0LubmUZi56gPr70gSI5OYkh2OJxS5"
+    },
+    {
+      "module": "ssh",
+      "remotePath": "/var/www/html/releases/studio",
+      "hostname": "uarm.studio",
+      "port": 22,
+      "username": "publisher",
+      "password": "ufactory"
+    }
+  ],
+  "updatesJson": [
+    {
+      "transport": "qiniu",
+      "hostUrl": "http://update.ufactory.cc/releases/history.json?v={random}",
+      "remotePath": "releases",
+      "targetFileName": "history.json",
+      "mode": "history"
+    },
+    {
+      "transport": "qiniu",
+      "hostUrl": "http://update.ufactory.cc/releases/updates.json?v={random}",
+      "remotePath": "releases",
+      "targetFileName": "updates.json",
+      "mode": "current"
+    },
+    {
+      "transport": "ssh",
+      "hostUrl": "http://uarm.studio/releases/updates_prod.json",
+      "remotePath": "/var/www/html/releases",
+      "targetFileName": "updates_prod.json",
+      "mode": "current",
+      "remoteUrl": "http://uarm.studio/releases/studio"
+    },
+    {
+      "transport": "ssh",
+      "hostUrl": "http://uarm.studio/releases/history_prod.json",
+      "remotePath": "/var/www/html/releases",
+      "targetFileName": "history_prod.json",
+      "mode": "history",
+      "remoteUrl": "http://uarm.studio/releases/studio"
+    }
+  ],
+  "releases": [
+    {
+      "releaseName": "{name}",
+      "key": {
+        "{name}": {}
+      },
+      "uploadFiles": [
+        {
+          "name": "mac",
+          "targetFileName": "{name}-{channel}-{version}.dmg",
+          "uploadFilePath": "build/{name}-mac-{version}.dmg"
+        },
+        {
+          "name": "win",
+          "targetFileName": "{name}-x64-{channel}-{version}.exe",
+          "uploadFilePath": "build/{name}-win-{version}.exe"
+        },
+        {
+          "name": "linux",
+          "targetFileName": "{name}-{channel}-{version}.AppImage",
+          "uploadFilePath": "build/{name}-{version}-x86_64.AppImage"
+        }
+      ],
+      "fields": {
+        "introduction": {
+          "en": "uArm Studio is an all-in-one software for controlling uArm Swift & uArm Swift Pro. It includes driver installation and firmware upgrade. ",
+          "cn": "uArm Studio是 uArm Swift 和 uArm Swift Pro 的控制软件，包含驱动安装和固件更新。"
+        },
+        "releaseNote": {
+          "cn": [
+            "1. 支持共20种Grove模块。新增的有：LCD屏幕、按钮、LED灯、光线传感器、滑动变阻器、旋转角度传感器、空气质量传感器、声音传感器、巡线传感器、OLED屏幕、肌电传感器、加速度传感器&指南针、震动马达",
+            "2. 支持中英文语言切换。",
+            "3. 跳转到新的客服页面。",
+            "4. Blockly新手任务增加中文版gif指引。"
+          ],
+          "en": [
+            "1. Support 20 Grove modules in total. Added modules: LCD screen, button, LED, light sensor, slide potentiometer, rotary angle sensor, air quality sensor, sound sensor, line finder, OLED screen, EMG detector, 6-Axis Accelerometer&Compass, and vibration motor.",
+            "2. Language setting (English/Simplified Chinese).",
+            "3. Link to a new customer service page."
+          ]
+        },
+        "url": {
+          "mac": "{remoteUrl}/{name}-{channel}-{version}.dmg",
+          "win": "{remoteUrl}/{name}-x64-{channel}-{version}.exe",
+          "linux": "{remoteUrl}/{name}-{channel}-{version}.AppImage"
+        },
+        "minimumFirmware": "{minimumFirmware}",
+        "category": "software",
+        "name": "{name}"
+      }
+    }
+  ]
+}

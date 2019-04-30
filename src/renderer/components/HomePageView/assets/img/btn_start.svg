@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="222px" height="101px" viewBox="0 0 222 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>btn_start</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="190.682425" height="69.0080501" rx="34.504025"></rect>
+        <filter x="-12.8%" y="-34.1%" width="125.7%" height="171.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.212877338   0 0 0 0 0.212877338   0 0 0 0 0.212877338  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="YCH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blockly3.0" transform="translate(-750.000000, -585.000000)">
+            <g id="Studio(Home-Page)" transform="translate(338.000000, 119.000000)">
+                <g id="Getting-started-with-uarm-studio" transform="translate(120.000000, 108.000000)">
+                    <g id="btn_start" transform="translate(291.017191, 357.712284)">
+                        <g transform="translate(17.000000, 15.000000)">
+                            <g opacity="0.699999988">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M64.088,30.544 C64.088,27.472 61.616,25.024 58.544,25.024 C55.472,25.024 53.024,27.496 53.024,30.568 C53.024,33.64 55.472,36.088 58.544,36.088 C59.288,36.088 59.912,36.712 59.912,37.456 C59.912,38.2 59.288,38.8 58.544,38.8 C57.8,38.8 57.2,38.2 57.2,37.432 L53,37.432 C53,40.6 55.472,43.024 58.544,43.024 C61.616,43.024 64.088,40.576 64.088,37.504 C64.088,36.184 63.656,34.984 62.888,34.024 C61.88,32.728 60.296,31.888 58.544,31.888 C57.8,31.888 57.2,31.288 57.2,30.544 C57.2,29.8 57.8,29.176 58.544,29.176 C59.288,29.176 59.912,29.8 59.912,30.544 L64.088,30.544 Z M67.064,29.704 L71.744,29.704 L71.744,43.024 L76.472,43.024 L76.472,29.704 L81.248,29.704 L81.248,25 L67.064,25 L67.064,29.704 Z M88.04,43.024 L83.312,43.024 L91.712,25.024 L93.848,25.024 L102.32,43.024 L97.592,43.024 L96.488,40.672 L89.12,40.672 L88.04,43.024 Z M92.816,32.728 L90.968,36.688 L94.64,36.688 L92.816,32.728 Z M120.608,43.024 L115.16,43.024 L112.376,38.248 L109.448,38.248 L109.448,43.024 L104.72,43.024 L104.72,25.024 L112.304,25.024 C115.952,25.024 118.928,28 118.928,31.648 C118.928,33.568 118.088,35.296 116.792,36.496 L120.608,43.024 Z M109.448,29.008 L109.448,34.168 L112.376,34.168 C113.816,34.168 114.968,33.04 114.968,31.6 C114.968,30.16 113.816,29.008 112.376,29.008 L109.448,29.008 Z M122.552,29.704 L127.232,29.704 L127.232,43.024 L131.96,43.024 L131.96,29.704 L136.736,29.704 L136.736,25 L122.552,25 L122.552,29.704 Z" id="Start" fill="#3C3C3C"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

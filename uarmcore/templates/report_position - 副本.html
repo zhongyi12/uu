@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<TITLE>UArm实时更新数据</TITLE>
+
+<script type="text/javascript" src="/static/jquery/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/static/chart/highcharts/highcharts.js"></script>
+
+<script src="/static/css3-progress-bar-linear-color/js/modernizr.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/static/css3-progress-bar-linear-color/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="/static/css3-progress-bar-linear-color/css/default.css">
+<link rel="stylesheet" type="text/css" href="/static/css3-progress-bar-linear-color/css/styles.css">
+
+
+<script type="text/javascript">
+    var socket;
+    var position = [100, 0, 20, 0];
+    var printing = false;
+    var progress_percent = 0.0;
+    flag = false;
+
+    function init(){
+        var host = this.location.host
+        host = "ws://" + host + "/ws";
+        try{
+            socket = new WebSocket(host);
+            socket.onopen = function(msg) {
+                // alert("Connected");
+            };
+            socket.onmessage = function(msg) {
+                var obj = eval('(' + msg.data + ')');
+                if (obj.cmd == "uarm_report_position")
+                {
+                    position = obj.data.position;
+                }
+                else if (obj.cmd == "uarm_printing_progress")
+                {
+                    printing = true;
+                    progress_percent = obj.data.progress;
+                }
+                else if (obj.cmd == "uarm_stop_printing")
+                {
+                    printing = false;
+                }
+            };
+            socket.onclose = function(msg) {
+                // alert("DisConnected");
+                flag = false;
+            };
+        } catch(ex) {
+            alert(ex);
+        }
+    }
+
+    function send_command(command) {
+        try {
+            socket.send(command);
+        } catch(ex) {
+            alert(ex);
+        }
+    }
+
+    function start_report_position() {
+        send_command('{"id": "123456", "data": "", "cmd": "uarm_start_report_position"}');
+        flag = true;
+    }
+
+    function stop_report_position() {
+        send_command('{"id": "123456", "data": "", "cmd": "uarm_stop_report_position"}');
+        flag = false;
+    }
+
+    function pause_printing() {
+        send_command('{"id": "123456", "data": "", "cmd": "pause_printing"}')
+    }
+
+    function resume_printing() {
+        send_command('{"id": "123456", "data": "", "cmd": "resume_printing"}')
+    }
+
+    function stop_printing() {
+        send_command('{"id": "123456", "data": "", "cmd": "stop_printing"}')
+        progress_percent = 0.0
+    }
+
+    window.onbeforeunload = function() {
+        try {
+            socket.send('quit');
+            socket.close();
+            socket=null;
+        }
+        catch(ex) {
+            alert(ex);
+        }
+    };
+
+    $(function () {
+        $(document).ready(function() {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+
+            var chart;
+            $('#container').highcharts({
+                chart: {
+                    type: 'spline',
+                    animation: Highcharts.svg, // don't animate in old IE
+                    marginRight: 10,
+                    events: {
+                        load: function() {
+
+                            // set up the updating of the chart each second
+                            var series = this.series;
+                            setInterval(function() {
+                                if (flag) {
+                                    var x = (new Date()).getTime();
+
+                                    series[0].addPoint([x, position[0]], true, true);
+                                    series[1].addPoint([x, position[1]], true, true);
+                                    series[2].addPoint([x, position[2]], true, true);
+                                }
+                            }, 1000);
+                        }
+                    }
+                },
+                title: {
+                    text: 'UArm Position--1 second'
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: false
+                },
+                exporting: {
+                    enabled: false
+                },
+                xAxis: {
+                    type: 'datetime',
+                    tickPixelInterval: 100
+                },
+                yAxis: {
+                    title: {
+                        text: 'UArm Position--1 second'
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    formatter: function() {
+                            return '<b>'+ this.series.name +'</b><br/>'+
+                            Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) +'<br/>'+
+                            Highcharts.numberFormat(this.y, 2);
+                    }
+                },
+                series: [
+                    {
+                        name: 'Position-X',
+                        data: (function() {
+                            // generate an array of random data
+                            var data = [],
+                            time = (new Date()).getTime(),
+                            i;
+
+                            for (i = -19; i <= 0; i++) {
+                                data.push({
+                                    x: time + i * 1000,
+                                    y: Math.random()
+                                });
+                            }
+                            return data;
+                        })()
+                    },
+                    {
+                        name: 'Position-Y',
+                        data: (function() {
+                            var data = [],
+                            time = (new Date()).getTime(),
+                            i;
+
+                            for (i = -19; i <= 0; i++) {
+                                data.push({
+                                    x: time + i * 1000,
+                                    y: Math.random()
+                                });
+                            }
+                            return data;
+                        })()
+                    },
+                    {
+                        name: 'Position-Z',
+                        data: (function() {
+                            var data = [],
+                            time = (new Date()).getTime(),
+                            i;
+
+                            for (i = -19; i <= 0; i++) {
+                                data.push({
+                                    x: time + i * 1000,
+                                    y: Math.random()
+                                });
+                            }
+                            return data;
+                        })()
+                    }
+                ]
+            });
+        });
+
+    });
+
+</script>
+
+</HEAD>
+
+<BODY onload="init()">
+    <div id="container" style="width:700px;height:400px;margin:0 auto;"></div>
+    <div style="text-align:center;clear:both;">
+    </div>
+
+    <div style="text-align:center;clear:both;">
+        <button onclick="start_report_position()">Start Report Position</button>
+        <button onclick="stop_report_position()">Stop Report Position</button>
+    </div>
+
+    <div class="htmleaf-container">
+        <div class="htmleaf-content" style="text-align:center;clear:both;">
+            <div class="progress">
+              <b class="progress__bar">
+                <span class="progress__text">
+                  Progress: <em>0%</em>
+                </span>
+              </b>
+            </div>
+        </div>
+    </div>
+    <div style="text-align:center;clear:both;">
+        <button id="btn_pause" onclick="pause_printing()">Pause</button>
+        <button id="btn_resume" onclick="resume_printing()">Resume</button>
+        <button id="btn_stop" onclick="stop_printing()">Stop</button>
+    </div>
+    <script src='/static/css3-progress-bar-linear-color/js/stopExecutionOnTimeout.js?t=1'></script>
+    <script>window.jQuery || document.write('<script src="/static/css3-progress-bar-linear-color/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script type="text/javascript">
+        var $progress = $('.progress'),
+        $bar = $('.progress__bar'),
+        $text = $('.progress__text'),
+        percent = 0,
+        update,
+        resetColors,
+        speed = 200,
+        orange = 30,
+        yellow = 55,
+        green = 85,
+        timer;
+        resetColors = function () {
+            $bar.removeClass('progress__bar--green').removeClass('progress__bar--yellow').removeClass('progress__bar--orange').removeClass('progress__bar--blue');
+            $progress.removeClass('progress--complete');
+        };
+        update = function () {
+            timer = setTimeout(function () {
+                percent = parseFloat(progress_percent);
+                percent = parseFloat(percent.toFixed(2));
+                $text.find('em').text(percent + '%');
+                if (percent >= 100) {
+                    percent = 100;
+                    $progress.addClass('progress--complete');
+                    $bar.addClass('progress__bar--blue');
+                    $text.find('em').text('Complete');
+                } else {
+                    if (percent >= green) {
+                        $bar.addClass('progress__bar--green');
+                    } else if (percent >= yellow) {
+                        $bar.addClass('progress__bar--yellow');
+                    } else if (percent >= orange) {
+                        $bar.addClass('progress__bar--orange');
+                    }
+                    update();
+                }
+                $bar.css({ width: percent + '%' });
+            }, speed);
+        };
+        setTimeout(function () {
+            $progress.addClass('progress--active');
+            update();
+        }, 1000);
+        $(document).on('click', function (e) {
+            percent = 0;
+            clearTimeout(timer);
+            resetColors();
+            update();
+        });
+    </script>
+</BODY>
+</HTML>

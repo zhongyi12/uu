@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="116px" height="119px" viewBox="0 0 116 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>last page_control</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.7%" y="-0.8%" width="103.4%" height="103.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.990074,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#C76E6E" offset="0%"></stop>
+            <stop stop-color="#9C4343" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-512.000000, -1323.000000)">
+            <g id="12th（copy）" transform="translate(309.000000, 1080.000000)">
+                <g id="Group" transform="translate(200.000000, 235.000000)">
+                    <g id="Icon_control" filter="url(#filter-1)" transform="translate(3.000000, 2.000000)">
+                        <g id="last-page_control">
+                            <path d="M115.506496,93.9253247 C115.506496,76.2612182 89.5379731,62.8678783 57.9970081,62.8678783 C26.4560431,62.8678783 0.487520482,76.2612182 0.487520482,93.9253247 C0.487520482,111.589431 26.4560431,124.982771 57.9970081,124.982771 C89.5379731,124.982771 115.506496,111.589431 115.506496,93.9253247 Z M6.54115076,90.9674726 C6.54115076,77.5936243 29.3580748,65.8257304 57.9970081,65.8257304 C86.6359414,65.8257304 109.452866,77.5936243 109.452866,90.9674726 C109.452866,104.341321 86.6359414,116.109215 57.9970081,116.109215 C29.3580748,116.109215 6.54115076,104.341321 6.54115076,90.9674726 Z" id="Oval-10" fill="#979797" fill-rule="nonzero" opacity="0.5"></path>
+                            <path d="M0.487520482,95.6507384 C0.487520482,80.0479153 25.9887886,66.3187057 57.9970081,66.3187057 C90.0052277,66.3187057 115.506496,80.0479153 115.506496,95.6507384 C115.506496,111.253561 90.0052277,124.982771 57.9970081,124.982771 C25.9887886,124.982771 0.487520482,111.253561 0.487520482,95.6507384 Z" id="Oval-10" fill="#506A81" fill-rule="nonzero" opacity="0.300000012"></path>
+                            <ellipse id="Oval-10" fill="#959595" cx="57.9970081" cy="88.7490836" rx="36.5969467" ry="18.9795505"></ellipse>
+                            <path d="M80.5007073,103.717439 C84.826156,101.965935 88.3728415,99.7211786 90.8263286,97.1462379 C76.5051689,84.3251275 71.6655032,84.8157221 71.6655032,84.8157221 L68.2421984,87.4392389 C68.2421984,87.4392389 74.0709781,88.5085371 80.5007073,103.717439 Z" id="Oval-10" fill="#FFFFFF" opacity="0.400000006"></path>
+                            <ellipse id="Oval-10" fill="#6B6B6B" cx="57.9970081" cy="81.8474289" rx="22.6552527" ry="8.62706843"></ellipse>
+                            <ellipse id="Oval-10" fill="#404040" cx="57.9970081" cy="85.2982563" rx="12.1989822" ry="5.17624106"></ellipse>
+                            <g id="Group-12" transform="translate(67.004685, 47.979860) rotate(-345.000000) translate(-67.004685, -47.979860) translate(40.504685, 5.479860)">
+                                <path d="M21.9359091,24.1557916 L32.3921796,24.1557916 L32.3921796,81.2046399 C32.3921796,81.2046399 32.4987442,82.7836942 26.6893112,84.3248761 C23.0249689,85.2969877 21.8709745,83.3123889 21.8709745,83.3123889 L21.9359091,24.1557916 Z" id="Rectangle-12" fill="#CFCFCF"></path>
+                                <ellipse id="Oval-9" fill="url(#radialGradient-2)" cx="26.5036657" cy="26.4215929" rx="26.1406762" ry="25.8812053"></ellipse>
+                                <ellipse id="Oval-11" fill="#FFFFFF" opacity="0.400000006" transform="translate(38.485060, 16.237422) rotate(-308.000000) translate(-38.485060, -16.237422) " cx="38.4850597" cy="16.2374219" rx="6.97084699" ry="4.90285841"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

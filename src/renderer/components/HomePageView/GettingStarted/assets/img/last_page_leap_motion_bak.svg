@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="141px" height="109px" viewBox="0 0 141 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>last page_leap motion</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.4%" y="-0.9%" width="102.8%" height="103.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M13.703268,76.6848226 C13.703268,74.4427154 15.5068551,72.6251284 17.7575833,72.6251284 L125.957472,72.6251284 C128.196609,72.6251284 130.011787,74.4360788 130.011787,76.6848226 L130.011787,86.8294678 C130.011787,89.3176283 127.993035,91.3346808 125.505853,91.3346808 L18.2092023,91.3346808 C15.7206435,91.3346808 13.703268,89.3146546 13.703268,86.8294678 L13.703268,76.6848226 Z" id="path-2"></path>
+        <linearGradient x1="50%" y1="-14.4549256%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#383838" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#83F167" stop-opacity="0.404891304" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-2731.000000, -3012.000000)">
+            <g id="9th" transform="translate(1735.000000, 2644.000000)">
+                <g id="icon_leap-motion" filter="url(#filter-1)" transform="translate(996.000000, 368.000000)">
+                    <g id="last-page_leap-motion">
+                        <path d="M12.2550287,76.3822137 C12.2550287,73.8969159 14.2753967,71.882184 16.7494018,71.882184 L127.045868,71.882184 C129.528042,71.882184 131.540241,73.8959966 131.540241,76.3822137 L131.540241,103.303136 C131.540241,105.972318 129.367996,108.136118 126.697767,108.136118 L17.097503,108.136118 C14.4230783,108.136118 12.2550287,105.97684 12.2550287,103.303136 L12.2550287,76.3822137 Z" id="Rectangle-17" fill="#D3D3D3"></path>
+                        <rect id="Rectangle-18" fill="#79AA44" x="102.747259" y="101.738365" width="10.283208" height="2.13258434" rx="1.06629217"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E5E5E5" x="12.2550287" y="71.882184" width="119.285213" height="21.3258434" rx="4.5"></rect>
+                        <g id="Rectangle-17-Copy">
+                            <use fill="#3E3E3E" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <path stroke="#2B2B2B" stroke-width="0.675" d="M14.040768,76.6848226 C14.040768,74.6248458 15.6975047,72.9626284 17.7575833,72.9626284 L125.957472,72.9626284 C128.012489,72.9626284 129.674287,74.6247522 129.674287,76.6848226 L129.674287,86.8294678 C129.674287,89.1307288 127.807143,90.9971808 125.505853,90.9971808 L18.2092023,90.9971808 C15.9080887,90.9971808 14.040768,89.1293078 14.040768,86.8294678 L14.040768,76.6848226 Z"></path>
+                        </g>
+                        <path d="M14.5857974,82.6879258 L0.907226756,0.323349564 L140.133359,0.323349564 L128.980855,82.6879258 C128.980855,82.6879258 128.146863,89.891892 122.391229,89.891892 C101.573119,89.891892 50.1606392,89.891892 23.4134365,89.891892 C15.146365,89.891892 14.5857974,82.6879258 14.5857974,82.6879258 Z" id="Path-58" fill="url(#linearGradient-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>img_default user _small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10.5" cy="10.5" r="10.5"></circle>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_USER-ID" transform="translate(-7584.000000, -3290.000000)">
+            <g id="img_default-user-" transform="translate(7584.000000, 3290.000000)">
+                <g id="img_default-user-_small">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#252525" xlink:href="#path-1"></use>
+                    <path d="M10.4985762,5.86523289 L7.75,7.4463074 L7.75,10.6036926 L10.4985762,12.1847671 L13.2471525,10.6036926 L13.2471525,7.4463074 L10.4985762,5.86523289 Z" id="Polygon-Copy-4" stroke="#D95E2E" stroke-width="1.5" mask="url(#mask-2)"></path>
+                    <rect id="Rectangle-48" fill="#D95E2E" mask="url(#mask-2)" x="8.22998424" y="15" width="4.5999999" height="1.29999995"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

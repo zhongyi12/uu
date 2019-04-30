@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="346px" height="117px" viewBox="0 0 346 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ICONS_NAVI</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#C76E6E" offset="0%"></stop>
+            <stop stop-color="#9C4343" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="87" y="0" width="85.1895833" height="92.0968468"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="5.07482325" y="23.2961181" width="31.558398" height="5.09032746" rx="2.54516373"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.558398" height="5.09032746" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <linearGradient x1="50%" y1="-14.4549256%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#383838" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#83F167" stop-opacity="0.404891304" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="YCH-Blocky界面(弹窗设计）" transform="translate(-2342.000000, -198.000000)">
+            <g id="Popout_Recording(1)" transform="translate(2342.000000, 129.000000)">
+                <g id="ICONS_NAVI" transform="translate(0.000000, 72.000000)">
+                    <rect id="ICONS_BG" fill="#3C3C3C" x="0" y="19" width="346" height="65"></rect>
+                    <text id="Blockly" font-family="PingFangSC-Regular, PingFang SC" font-size="9" font-weight="normal" letter-spacing="0.572727501" fill="#FFFFFF">
+                        <tspan x="21.5163359" y="78.7752268">Blockly</tspan>
+                    </text>
+                    <g id="ICON_BLOCKLY" transform="translate(18.321875, 25.446154)">
+                        <path d="M20.1276021,34.5453999 L25.7389871,34.5453999 L25.7389871,37.4363132 L21.2410609,37.4363132 L9.49531213,37.4363132 L9.52169957,21.289487 L11.149193,21.2908199 L12.2319532,22.3667917 L13.3129302,21.2925918 L38.2008123,21.3129736 L38.2008123,26.6994971 L14.9422068,26.6760105 L14.9158194,34.5453999 L17.3812151,34.5453999 L18.7544086,35.9099842 L20.1276021,34.5453999 Z" id="Combined-Shape" fill="#F0D13A"></path>
+                        <ellipse id="Oval" fill="#000000" opacity="0.100000001" cx="12.2140026" cy="24.4851892" rx="1.08410145" ry="1.07730469"></ellipse>
+                        <polygon id="Triangle-5-Copy" fill="#FCDD5D" points="17.0134668 26.1780965 20.2657711 26.1780965 18.639619 27.7940536"></polygon>
+                        <g id="Group-6" transform="translate(19.090442, 8.676095) rotate(-360.000000) translate(-19.090442, -8.676095) translate(9.590442, 4.176095)">
+                            <path d="M3.7212792,7.54113282 L18.9976516,7.54113282 L18.9976516,2.66453526e-15 L0.0258762569,2.66453526e-15 L0.0258762569,7.54113282 L1.54396621,7.54113282 L2.6326227,8.622964 L3.7212792,7.54113282 Z" id="Combined-Shape" fill="#71CC8C"></path>
+                            <rect id="Rectangle-14" fill="#FFFFFF" opacity="0.600000024" x="6.01266235" y="1.49591451" width="10.8410145" height="4.48774353" rx="1.125"></rect>
+                            <ellipse id="Oval" fill="#5BAB73" cx="2.60667423" cy="3.57049554" rx="1.08410145" ry="1.07730469"></ellipse>
+                        </g>
+                        <g id="Group-8" transform="translate(16.032873, 27.807633)">
+                            <path d="M1.62615217,4.4408921e-16 L0,4.4408921e-16 L0,5.92517579 L16.0234569,5.92517579 L16.0234569,4.4408921e-16 L3.79435507,4.4408921e-16 L2.71025362,1.18503516 L1.62615217,2.49800181e-16 Z" id="Combined-Shape" fill="#50C5D4"></path>
+                            <rect id="Rectangle-14-Copy-3" fill="#FFFFFF" opacity="0.600000024" x="6.37376885" y="1.34663086" width="8.50515541" height="3.23191407"></rect>
+                            <polygon id="Triangle-5-Copy-2" fill="#50C5D4" points="1.08410145 5.38652344 4.33640579 5.38652344 2.71025362 7.00248048"></polygon>
+                            <ellipse id="Oval-Copy" fill="#3E9FAD" cx="2.71025362" cy="3.23191407" rx="1.08410145" ry="1.07730469"></ellipse>
+                        </g>
+                        <g id="Group-8-Copy" transform="translate(15.426287, 17.802267) rotate(-4.000000) translate(-15.426287, -17.802267) translate(4.426287, 13.802267)">
+                            <path d="M1.62615217,5.92517579 L1.34026124e-12,5.92517579 L1.34026124e-12,3.66107145e-12 L1.62615217,3.66107145e-12 L2.71025362,1.18503516 L3.79435507,3.66096042e-12 L21.3082009,3.66107145e-12 L21.3082009,5.92517579 L3.79435507,5.92517579 L2.71025362,7.00248048 L1.62615217,5.92517579 Z" id="Combined-Shape" fill="#E37D7D"></path>
+                            <rect id="Rectangle-14-Copy-3" fill="#FFFFFF" opacity="0.600000024" x="9.17747949" y="1.34663086" width="10.8410145" height="3.23191407"></rect>
+                            <ellipse id="Oval-Copy" fill="#CD5E5E" cx="2.71025362" cy="3.23191407" rx="1.08410145" ry="1.07730469"></ellipse>
+                        </g>
+                        <rect id="Rectangle-14-Copy" fill="#FFFFFF" opacity="0.600000024" x="24.8561971" y="22.4301626" width="10.8410145" height="3.23191407"></rect>
+                        <rect id="Rectangle-14-Copy-2" fill="#FFFFFF" opacity="0.600000024" x="15.0497483" y="22.4301626" width="7.53793986" height="3.23191407"></rect>
+                        <path d="M9.67562046,21.2435081 L11.3099442,21.2435081 L9.02189094,17.6585278 L6.73383764,21.2435081 L8.36816143,21.2435081 L8.36816143,24.0137201 L9.67562046,24.0137201 L9.67562046,21.2435081 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.125" transform="translate(9.021891, 20.836124) rotate(-30.000000) translate(-9.021891, -20.836124) "></path>
+                        <path d="M9.67562046,21.2435081 L11.3099442,21.2435081 L9.02189094,17.6585278 L6.73383764,21.2435081 L8.36816143,21.2435081 L8.36816143,24.0137201 L9.67562046,24.0137201 L9.67562046,21.2435081 Z" id="Combined-Shape" fill="#000000" transform="translate(9.021891, 20.836124) rotate(-30.000000) translate(-9.021891, -20.836124) "></path>
+                    </g>
+                    <text id="Control" font-family="PingFangSC-Regular, PingFang SC" font-size="9" font-weight="normal" letter-spacing="0.572727501" fill="#FFFFFF">
+                        <tspan x="203.10217" y="77.8307692">Control</tspan>
+                    </text>
+                    <g id="Icon_control" transform="translate(199.298958, 21.830769)">
+                        <path d="M37.5676006,29.2326627 C37.5676006,23.8885109 29.7925604,19.8364497 20.349117,19.8364497 C10.9056736,19.8364497 3.13063339,23.8885109 3.13063339,29.2326627 C3.13063339,34.5768145 10.9056736,38.6288757 20.349117,38.6288757 C29.7925604,38.6288757 37.5676006,34.5768145 37.5676006,29.2326627 Z M4.94310535,28.3377853 C4.94310535,24.2916211 11.7745492,20.7313271 20.349117,20.7313271 C28.9236849,20.7313271 35.7551287,24.2916211 35.7551287,28.3377853 C35.7551287,32.3839495 28.9236849,35.9442434 20.349117,35.9442434 C11.7745492,35.9442434 4.94310535,32.3839495 4.94310535,28.3377853 Z" id="Oval-10" fill="#979797" opacity="0.5"></path>
+                        <path d="M3.13063339,29.7546746 C3.13063339,25.0341496 10.7657765,20.8804734 20.349117,20.8804734 C29.9324575,20.8804734 37.5676006,25.0341496 37.5676006,29.7546746 C37.5676006,34.4751995 29.9324575,38.6288757 20.349117,38.6288757 C10.7657765,38.6288757 3.13063339,34.4751995 3.13063339,29.7546746 Z" id="Oval-10" fill="#506A81" opacity="0.300000012"></path>
+                        <ellipse id="Oval-10" fill="#959595" cx="20.349117" cy="27.6666272" rx="10.9572168" ry="5.74213018"></ellipse>
+                        <path d="M27.0867805,32.1951983 C28.3818306,31.6652932 29.4437171,30.9861578 30.1782972,30.2071275 C25.8905064,26.3281903 24.4414984,26.4766162 24.4414984,26.4766162 L23.4165525,27.2703429 C23.4165525,27.2703429 25.1617036,27.5938515 27.0867805,32.1951983 Z" id="Oval-10" fill="#FFFFFF" opacity="0.400000006"></path>
+                        <ellipse id="Oval-10" fill="#6B6B6B" cx="20.349117" cy="25.5785799" rx="6.783039" ry="2.61005917"></ellipse>
+                        <ellipse id="Oval-10" fill="#404040" cx="20.349117" cy="26.6226036" rx="3.65240562" ry="1.5660355"></ellipse>
+                        <g id="Group-12" transform="translate(23.072996, 15.486545) rotate(-345.000000) translate(-23.072996, -15.486545) translate(15.072996, 2.486545)">
+                            <path d="M6.56766573,7.30816568 L9.69829912,7.30816568 L9.69829912,24.5678954 C9.69829912,24.5678954 9.73020484,25.0456273 7.99084614,25.5119011 C6.89373296,25.8060066 6.54822417,25.2055801 6.54822417,25.2055801 L6.56766573,7.30816568 Z" id="Rectangle-12" fill="#CFCFCF"></path>
+                            <ellipse id="Oval-9" fill="url(#radialGradient-1)" cx="7.93526342" cy="7.99366799" rx="7.82658346" ry="7.83017751"></ellipse>
+                            <ellipse id="Oval-11" fill="#FFFFFF" opacity="0.400000006" transform="translate(11.522523, 4.912518) rotate(-308.000000) translate(-11.522523, -4.912518) " cx="11.5225226" cy="4.91251835" rx="2.08708892" ry="1.4833255"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Rectangle-25">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="#1A1A1A" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <text id="Teach-&amp;-Play" font-family="PingFangSC-Regular, PingFang SC" font-size="9" font-weight="normal" letter-spacing="0.572727501" fill="#FFFFFF">
+                        <tspan x="101.336661" y="74.8307692">Teach &amp; Play</tspan>
+                    </text>
+                    <g id="Icon_Teach&amp;Play" transform="translate(107.715625, 11.782269)">
+                        <path d="M9.68382765,3.17060292 C9.68382765,3.17060292 19.1282276,0.0574242986 26.5073884,2.23144557 C33.6884479,4.34710296 38.087393,8.39723982 39.9566713,10.7530906" id="Path-80" stroke="#BFBFBF" stroke-width="1.125" stroke-dasharray="1.125,1.125"></path>
+                        <path d="M38.0297959,16.394257 L17.3343257,26.4727273" id="Path-81" stroke="#91B4DD" stroke-width="1.125" stroke-dasharray="2.25"></path>
+                        <path d="M15.9374375,26.4727273 L30.9963832,42.0011896" id="Path-82" stroke="#91B4DD" stroke-width="1.125"></path>
+                        <ellipse id="Oval-13" stroke="#BFBFBF" stroke-width="1.125" cx="4.88910847" cy="4.8913536" rx="4.88910847" ry="4.8913536"></ellipse>
+                        <path d="M42.3786721,19.2136247 C45.0788521,19.2136247 47.2677805,17.0236911 47.2677805,14.3222711 C47.2677805,11.6208511 45.0788521,9.43091751 42.3786721,9.43091751 C39.678492,9.43091751 37.4895636,11.6208511 37.4895636,14.3222711 C37.4895636,17.0236911 39.678492,19.2136247 42.3786721,19.2136247 Z" id="Oval-13-Copy" stroke="#BFBFBF" stroke-width="1.125"></path>
+                        <path d="M16.3820997,31.8772428 C19.0822797,31.8772428 21.2712081,29.6873092 21.2712081,26.9858892 C21.2712081,24.2844692 19.0822797,22.0945356 16.3820997,22.0945356 C13.6819196,22.0945356 11.4929912,24.2844692 11.4929912,26.9858892 C11.4929912,29.6873092 13.6819196,31.8772428 16.3820997,31.8772428 Z" id="Oval-13-Copy-2" stroke="#91B4DD" stroke-width="1.125" fill="#3C3C3C"></path>
+                        <path d="M16.3892265,29.8486688 C17.9321865,29.8486688 19.1830028,28.5972782 19.1830028,27.0536096 C19.1830028,25.5099411 17.9321865,24.2585504 16.3892265,24.2585504 C14.8462665,24.2585504 13.5954502,25.5099411 13.5954502,27.0536096 C13.5954502,28.5972782 14.8462665,29.8486688 16.3892265,29.8486688 Z" id="Oval-13-Copy-2" fill="#7DB2F0"></path>
+                        <path d="M4.84989375,7.70579155 C6.39285378,7.70579155 7.64367002,6.45440092 7.64367002,4.91073235 C7.64367002,3.36706378 6.39285378,2.11567315 4.84989375,2.11567315 C3.30693373,2.11567315 2.05611749,3.36706378 2.05611749,4.91073235 C2.05611749,6.45440092 3.30693373,7.70579155 4.84989375,7.70579155 Z" id="Oval-13-Copy-2" fill="#BFBFBF"></path>
+                        <polygon id="Path-83" fill="#91B4DD" transform="translate(30.848538, 41.906445) rotate(-90.000000) translate(-30.848538, -41.906445) " points="29.7333803 39.2945266 28.2738814 44.5183629 33.4231946 42.9901421"></polygon>
+                    </g>
+                    <text id="Leap-motion" font-family="PingFangSC-Regular, PingFang SC" font-size="9" font-weight="normal" letter-spacing="0.572727501" fill="#FFFFFF">
+                        <tspan x="269.709624" y="77.8307692">Leap motion</tspan>
+                    </text>
+                    <g id="icon_leap-motion" transform="translate(277.787500, 26.446154)">
+                        <rect id="Rectangle-17" fill="#D3D3D3" x="4.6818674" y="23.0939844" width="32.3660747" height="9.86364563" rx="4.5"></rect>
+                        <rect id="Rectangle-18" fill="#79AA44" x="29.2354413" y="31.2169867" width="2.79017885" height="0.580214449" rx="0.290107224"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E5E5E5" x="4.6818674" y="23.0939844" width="32.3660747" height="5.80214449" rx="2.90107224"></rect>
+                        <use id="Rectangle-17-Copy" stroke="#2B2B2B" mask="url(#mask-5)" stroke-width="1.35" fill="#3E3E3E" xlink:href="#path-4"></use>
+                        <path d="M5.31428302,26.0339139 L1.60282853,3.62489763 L39.3795428,3.62489763 L36.3534948,26.0339139 C36.3534948,26.0339139 36.1272048,27.9939045 34.5655085,27.9939045 C28.9168579,27.9939045 14.9669295,27.9939045 7.70951727,27.9939045 C5.4663838,27.9939045 5.31428302,26.0339139 5.31428302,26.0339139 Z" id="Path-58" fill="url(#linearGradient-6)"></path>
+                    </g>
+                    <path d="M129.385438,85 L129.385438,114" id="Line_icons-navi" stroke="#8F8F8F" stroke-width="0.5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

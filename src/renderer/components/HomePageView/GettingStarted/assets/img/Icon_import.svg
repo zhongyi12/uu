@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="113px" height="106px" viewBox="0 0 113 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_import</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.8%" y="-1.0%" width="104.5%" height="103.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.525490196   0 0 0 0 0.525490196   0 0 0 0 0.525490196  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-1145.000000, -2885.000000)">
+            <g id="8th" transform="translate(200.000000, 2644.000000)">
+                <g id="Btn_Import" transform="translate(945.000000, 241.000000)">
+                    <g id="Icon_import" filter="url(#filter-1)" transform="translate(1.000000, 0.000000)">
+                        <path d="M107.5,100.5 L26.5,100.5 L26.5,3.5 L77.9845534,3.5 L107.5,30.8555425 L107.5,42.3833896 L107.5,90.7310342 L107.5,100.5 Z" id="Rectangle-5" stroke="#D95E2E" stroke-width="7" transform="translate(67.000000, 52.000000) scale(-1, 1) translate(-67.000000, -52.000000) "></path>
+                        <polyline id="Path-2" stroke="#D95E2E" stroke-width="7" transform="translate(41.954303, 18.937418) scale(-1, 1) translate(-41.954303, -18.937418) " points="26.4084962 4.92180561 26.4084962 32.953031 57.5001092 32.953031"></polyline>
+                        <path d="M32,59.4285714 L72,59.4285714 L72,74.2857143 L32,74.2857143 L32,59.4285714 Z M1.45998769e-11,66.8571429 L32,48.2857143 L32,85.4285714 L1.45998769e-11,66.8571429 Z" id="Combined-Shape" fill="#D95E2E" transform="translate(36.000000, 66.857143) rotate(-180.000000) translate(-36.000000, -66.857143) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

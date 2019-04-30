@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>shoes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1-Copy-7" transform="translate(-331.000000, -269.000000)" stroke="#000000">
+            <g id="icons" transform="translate(331.000000, 269.000000)">
+                <g id="shoes" transform="translate(3.000000, 4.000000)">
+                    <g id="1" transform="translate(10.000000, 14.500000) scale(-1, -1) rotate(-90.000000) translate(-10.000000, -14.500000) translate(-4.000000, 5.000000)">
+                        <path d="M9.51753252,0.5 L4.83523101,0.5 C2.74496284,0.5 1.04901961,2.19400654 1.04901961,4.28229319 L1.04901961,14.2818251 C1.04901961,16.3709326 2.74388643,18.0641183 4.83523101,18.0641183 L23.3192842,18.0641183 C25.411459,18.0641183 27.1078431,16.3694421 27.1078431,14.2795597 L27.1078431,12.720456 C27.1078431,10.1864296 25.0638,8.14404872 22.5343137,8.14404872 L19.4120821,8.14124157 C14.6074793,7.6299655 10.664502,4.56664503 9.51753252,0.5 Z" id="base"></path>
+                        <path d="M27.1008205,13.2359127 L1.05637255,13.2359127" id="semelle-delim" stroke-linecap="round"></path>
+                        <g id="lacets" transform="translate(9.681373, 5.190119)" stroke-linecap="round">
+                            <path d="M2.53676471,0.176534666 L0.169117647,2.64801999" id="Line"></path>
+                            <path d="M4.22794118,1.23574266 L1.86029412,3.70722799" id="Line-Copy-3"></path>
+                            <path d="M6.25735294,2.29495066 L3.88970588,4.76643599" id="Line-Copy-5"></path>
+                        </g>
+                    </g>
+                    <g id="2" transform="translate(25.000000, 17.500000) rotate(-90.000000) translate(-25.000000, -17.500000) translate(11.000000, 8.000000)">
+                        <path d="M9.15750014,0.5 L4.28773418,0.5 C2.19786424,0.5 0.5,2.19477484 0.5,4.28229319 L0.5,14.2818251 C0.5,16.3708928 2.19550883,18.0641183 4.28773418,18.0641183 L23.3155475,18.0641183 C25.4029125,18.0641183 27.1,16.3681603 27.1,14.2795597 L27.1,12.8162706 C27.1,10.2360511 25.0069252,8.14404872 22.425,8.14404872 L19.2424081,8.14134969 C14.3461583,7.63053737 10.3265805,4.56831174 9.15750014,0.5 Z" id="base"></path>
+                        <path d="M27.0828369,13.2359127 L0.5175,13.2359127" id="semelle-delim" stroke-linecap="round"></path>
+                        <g id="lacets" transform="translate(9.315000, 4.631296)" stroke-linecap="round">
+                            <path d="M2.5875,0.735358196 L0.1725,3.20684352" id="Line"></path>
+                            <path d="M4.3125,1.79456619 L1.8975,4.26605152" id="Line-Copy-3"></path>
+                            <path d="M6.3825,2.85377419 L3.9675,5.32525952" id="Line-Copy-5"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="117px" height="113px" viewBox="0 0 117 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>last page_blockly</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.7%" y="-0.9%" width="103.4%" height="103.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-896.000000, -1324.000000)">
+            <g id="12th（copy）" transform="translate(309.000000, 1080.000000)">
+                <g id="Group" transform="translate(200.000000, 235.000000)">
+                    <g id="ICON_BLOCKLY" filter="url(#filter-1)" transform="translate(387.000000, 9.000000)">
+                        <g id="last-page_blockly">
+                            <path d="M54.7891725,103.186128 L73.8069809,103.186128 L73.8069809,112.943143 L58.5628478,112.943143 L18.7547789,112.943143 L18.8442098,58.4465844 L24.3600242,58.4510827 L28.0296577,62.0825558 L31.6932478,58.4570633 L116.041938,58.5258531 L116.041938,76.7057101 L37.2151056,76.6264414 L37.1256746,103.186128 L45.4812631,103.186128 L50.1352178,107.791686 L54.7891725,103.186128 Z" id="Combined-Shape" fill="#F0D13A"></path>
+                            <ellipse id="Oval" fill="#000000" opacity="0.100000001" cx="27.9688205" cy="69.232281" rx="3.67417914" ry="3.6359714"></ellipse>
+                            <polygon id="Triangle-5-Copy" fill="#FCDD5D" points="44.2349101 74.9459504 55.2574475 74.9459504 49.7461788 80.3999075"></polygon>
+                            <g id="Group-6" transform="translate(51.577188, 15.687804) rotate(-360.000000) translate(-51.577188, -15.687804) translate(19.077188, 0.687804)">
+                                <path d="M12.6119621,25.4517998 L64.3858335,25.4517998 L64.3858335,3.55271368e-15 L0.0876984377,3.55271368e-15 L0.0876984377,25.4517998 L5.2327284,25.4517998 L8.92234527,29.1030484 L12.6119621,25.4517998 Z" id="Combined-Shape" fill="#71CC8C"></path>
+                                <rect id="Rectangle-14" fill="#FFFFFF" opacity="0.600000024" x="20.3777964" y="5.048806" width="36.7417914" height="15.146418" rx="1.125"></rect>
+                                <ellipse id="Oval" fill="#5BAB73" cx="8.83440208" cy="12.0506481" rx="3.67417914" ry="3.6359714"></ellipse>
+                            </g>
+                            <g id="Group-8" transform="translate(40.911532, 80.445739)">
+                                <path d="M5.51126872,-1.77635684e-15 L0,-1.77635684e-15 L0,19.9978427 L54.3058505,19.9978427 L54.3058505,-1.77635684e-15 L12.859627,-1.77635684e-15 L9.18544786,3.99956854 L5.51126872,-1.94289029e-15 Z" id="Combined-Shape" fill="#50C5D4"></path>
+                                <rect id="Rectangle-14-Copy-3" fill="#FFFFFF" opacity="0.600000024" x="21.6016395" y="4.54496425" width="28.8252218" height="10.9079142"></rect>
+                                <polygon id="Triangle-5-Copy-2" fill="#50C5D4" points="3.67417914 18.179857 14.6967166 18.179857 9.18544786 23.6338141"></polygon>
+                                <ellipse id="Oval-Copy" fill="#3E9FAD" cx="9.18544786" cy="10.9079142" rx="3.67417914" ry="3.6359714"></ellipse>
+                            </g>
+                            <g id="Group-8-Copy" transform="translate(37.972024, 45.234655) rotate(-4.000000) translate(-37.972024, -45.234655) translate(1.472024, 33.234655)">
+                                <path d="M5.51126872,19.9978427 L2.67608158e-12,19.9978427 L2.67608158e-12,5.32018873e-12 L5.51126872,5.32018873e-12 L9.18544786,3.99956854 L12.859627,5.32074385e-12 L72.2166246,5.32018873e-12 L72.2166246,19.9978427 L12.859627,19.9978427 L9.18544786,23.6338141 L5.51126872,19.9978427 Z" id="Combined-Shape" fill="#E37D7D"></path>
+                                <rect id="Rectangle-14-Copy-3" fill="#FFFFFF" opacity="0.600000024" x="31.1038269" y="4.54496425" width="36.7417914" height="10.9079142"></rect>
+                                <ellipse id="Oval-Copy" fill="#CD5E5E" cx="9.18544786" cy="10.9079142" rx="3.67417914" ry="3.6359714"></ellipse>
+                            </g>
+                            <rect id="Rectangle-14-Copy" fill="#FFFFFF" opacity="0.600000024" x="70.8150756" y="62.2964364" width="36.7417914" height="10.9079142"></rect>
+                            <rect id="Rectangle-14-Copy-2" fill="#FFFFFF" opacity="0.600000024" x="37.5795796" y="62.2964364" width="25.5471861" height="10.9079142"></rect>
+                            <path d="M19.3658703,58.2914024 L24.9048339,58.2914024 L17.1502849,46.1918674 L9.39573597,58.2914024 L14.9346995,58.2914024 L14.9346995,67.6410432 L19.3658703,67.6410432 L19.3658703,58.2914024 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.125" transform="translate(17.150285, 56.916455) rotate(-30.000000) translate(-17.150285, -56.916455) "></path>
+                            <path d="M19.3658703,58.2914024 L24.9048339,58.2914024 L17.1502849,46.1918674 L9.39573597,58.2914024 L14.9346995,58.2914024 L14.9346995,67.6410432 L19.3658703,67.6410432 L19.3658703,58.2914024 Z" id="Combined-Shape" fill="#000000" transform="translate(17.150285, 56.916455) rotate(-30.000000) translate(-17.150285, -56.916455) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="11px" viewBox="0 0 9 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_start</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BLOCKLY" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_Backup" transform="translate(-10483.000000, -1229.000000)" fill="#6EBD6F">
+            <g id="Blocky-3.0" transform="translate(9587.000000, 1203.000000)">
+                <g id="Mid_interface">
+                    <g id="Top-Navi">
+                        <g id="btn_Topright" transform="translate(854.000000, 0.000000)">
+                            <g id="icon_start" transform="translate(41.872635, 25.598002)">
+                                <polygon points="1 11 1 1 9 6"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

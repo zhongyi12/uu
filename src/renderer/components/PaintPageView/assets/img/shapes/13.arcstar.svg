@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>arcstar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lase模式-copy" transform="translate(-1197.000000, -621.000000)" stroke="#000">
+            <g id="Group-12" transform="translate(110.000000, 50.000000)">
+                <g id="Group-3-Copy" transform="translate(1048.000000, 0.000000)">
+                    <g id="Group" transform="translate(12.000000, 281.000000)">
+                        <g id="Group-10">
+                            <path d="M27,305 C30.6870092,304.096055 33.9962666,302.331411 36.6638387,299.663839 C39.3314108,296.996267 41.0960548,293.687009 42,290 C42.9039452,293.687009 44.6685892,296.996267 47.3361613,299.663839 C50.0037334,302.331411 53.3129908,304.096055 57,305 C53.3129908,305.903945 50.0037334,307.668589 47.3361613,310.336161 C44.6685892,313.003733 42.9039452,316.312991 42,320 C41.0960548,316.312991 39.3314108,313.003733 36.6638387,310.336161 C33.9962666,307.668589 30.6870092,305.903945 27,305 L27,305 Z" id="arcstar"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

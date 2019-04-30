@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="131px" height="123px" viewBox="0 0 131 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>last page_teach&amp;play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.5%" y="-0.8%" width="103.1%" height="103.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-2120.000000, -3015.000000)">
+            <g id="9th" transform="translate(1735.000000, 2644.000000)">
+                <g id="Icon_Teach&amp;Play" filter="url(#filter-1)" transform="translate(385.000000, 371.000000)">
+                    <g id="last-page_teach&amp;play" transform="translate(1.000000, 1.000000)">
+                        <path d="M26.4584875,8.63502464 C26.4584875,8.63502464 52.2628025,0.156393041 72.4243999,6.0772629 C92.0447381,11.8391808 104.063687,22.8695849 109.170994,29.2856611" id="Path-80" stroke="#BFBFBF" stroke-width="1.125" stroke-dasharray="1.125,1.125"></path>
+                        <path d="M103.906319,44.6491775 L47.3614418,72.0975341" id="Path-81" stroke="#91B4DD" stroke-width="1.125" stroke-dasharray="2.25"></path>
+                        <path d="M43.5448159,72.0975341 L86.0478544,115.785078" id="Path-82" stroke="#91B4DD" stroke-width="1.125"></path>
+                        <ellipse id="Oval-13" stroke="#BFBFBF" stroke-width="1.125" cx="13.3581906" cy="13.3214281" rx="13.3581906" ry="13.3214281"></ellipse>
+                        <path d="M115.788468,52.3276257 C123.165993,52.3276257 129.146658,46.3634191 129.146658,39.0061976 C129.146658,31.648976 123.165993,25.6847695 115.788468,25.6847695 C108.410943,25.6847695 102.430277,31.648976 102.430277,39.0061976 C102.430277,46.3634191 108.410943,52.3276257 115.788468,52.3276257 Z" id="Oval-13-Copy" stroke="#BFBFBF" stroke-width="1.125"></path>
+                        <path d="M44.7597371,86.8165405 C52.137262,86.8165405 58.1179277,80.8523339 58.1179277,73.4951124 C58.1179277,66.1378908 52.137262,60.1736843 44.7597371,60.1736843 C37.3822121,60.1736843 31.4015465,66.1378908 31.4015465,73.4951124 C31.4015465,80.8523339 37.3822121,86.8165405 44.7597371,86.8165405 Z" id="Oval-13-Copy-2" stroke="#91B4DD" stroke-width="1.125" fill="#3C3C3C"></path>
+                        <path d="M44.7792093,81.2917912 C48.9949378,81.2917912 52.412461,77.8836732 52.412461,73.6795466 C52.412461,69.47542 48.9949378,66.067302 44.7792093,66.067302 C40.5634807,66.067302 37.1459575,69.47542 37.1459575,73.6795466 C37.1459575,77.8836732 40.5634807,81.2917912 44.7792093,81.2917912 Z" id="Oval-13-Copy-2" fill="#7DB2F0"></path>
+                        <path d="M13.2510468,20.9864501 C17.4667753,20.9864501 20.8842986,17.578332 20.8842986,13.3742054 C20.8842986,9.17007881 17.4667753,5.7619608 13.2510468,5.7619608 C9.03531826,5.7619608 5.61779503,9.17007881 5.61779503,13.3742054 C5.61779503,17.578332 9.03531826,20.9864501 13.2510468,20.9864501 Z" id="Oval-13-Copy-2" fill="#BFBFBF"></path>
+                        <polygon id="Path-83" fill="#91B4DD" transform="translate(84.285438, 114.130716) rotate(-90.000000) translate(-84.285438, -114.130716) " points="81.2385659 107.01725 77.250873 121.244183 91.3200037 117.082128"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_sign out</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图专用" transform="translate(-241.000000, -225.000000)" fill="#FFFFFF">
+            <g id="icon_sign-out" transform="translate(241.000000, 225.000000)">
+                <g transform="translate(5.000000, 5.000000)">
+                    <path d="M4.07088524,0.60565587 C1.6677871,1.71432462 0,4.14500196 0,6.96521186 C0,10.8312051 3.13400675,13.9652119 7,13.9652119 C10.8659932,13.9652119 14,10.8312051 14,6.96521186 C14,4.08632549 12.262092,1.61334929 9.77817376,0.538181145 L9.77817376,2.21347423 C11.4527205,3.17002703 12.5813953,4.97299881 12.5813953,7.03958672 C12.5813953,10.1070387 10.0947341,12.5936999 7.02728213,12.5936999 C3.95983013,12.5936999 1.47316897,10.1070387 1.47316897,7.03958672 C1.47316897,5.05871408 2.51015801,3.32004321 4.07088524,2.33682497 L4.07088524,0.60565587 Z" id="Combined-Shape"></path>
+                    <rect id="Rectangle-23" x="6.21740426" y="0.523472439" width="1.4105462" height="3.15789474"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

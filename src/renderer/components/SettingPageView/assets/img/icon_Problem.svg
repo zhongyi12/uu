@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_Problem</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="troubleshooting02_1" transform="translate(-429.000000, -349.000000)">
+            <g id="BLOCKLY_troubleshooting02">
+                <g id="icon_Problem" transform="translate(429.000000, 349.000000)">
+                    <g transform="translate(0.457985, 0.457985)">
+                        <circle id="2" fill="#FFECC6" cx="10.5420149" cy="10.5420149" r="10.5420149"></circle>
+                        <circle id="1" fill="#FFC553" cx="10.5420149" cy="10.5420149" r="8.78501243"></circle>
+                        <path d="M9.17964056,4.12901562 L11.6595138,4.12901562 L11.6595138,12.3952598 L9.17964056,12.3952598 L9.17964056,4.12901562 Z M9.17964056,14.0485087 L11.6595138,14.0485087 L11.6595138,16.5283819 L9.17964056,16.5283819 L9.17964056,14.0485087 Z" id="icon_!" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,70 @@
+.mission-wrapper {
+  position: absolute;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.content_top {
+  margin-top: 18px;
+  width: 250px;
+  /*height: 34px;*/
+  margin:0 auto;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #D95E2E;
+  line-height: 17px;
+  text-align: center;
+}
+.img_1 {
+  /*background: yellow;*/
+  margin:0 auto;
+  margin-top: 10px;
+  width: 178px;
+  height: 212px;
+}
+.img_2 {
+  /*background: yellow;*/
+  margin:0 auto;
+  /*margin-top: 10px;*/
+  margin-left: -70px;
+  margin-top: 10px;
+  text-align: center;
+  /*width: 350px;*/
+  /*width: 265px;*/
+  /*height: 156px;*/
+}
+/*.img_3 {
+  background: yellow;
+  margin:0 auto;
+  margin-top: 10px;
+  margin-left: -50px;
+  width: 265px;
+  height: 156px;
+}*/
+.img_gif {
+  width: 380px;
+}
+.play_icon {
+  /*float: left;*/
+  background: yellow;
+  width: 17px;
+  height: 21px;
+  /*padding-top: 55px;*/
+}
+.step li {
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  font-weight:800;
+  color: #555555;
+  padding-top: 10px;
+  margin-left: -10px;
+  margin-top: 50px;
+}
+.step_1 li {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #787878;
+  list-style:none;
+  margin-left: -40px;
+  margin-top: 5px;
+}

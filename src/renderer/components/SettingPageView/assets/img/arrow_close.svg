@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="5px" viewBox="0 0 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow_close all</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="troubleshooting02_1" transform="translate(-552.000000, -515.000000)" fill-rule="nonzero" fill="#D95E2E">
+            <g id="BLOCKLY_troubleshooting02">
+                <g id="btn_close-all" transform="translate(473.000000, 508.000000)">
+                    <path d="M81.7173022,9.20806165 L81.7173022,9.79193835 L85.8769304,5.70480151 C86.0410232,5.54356842 86.0410232,5.28215792 85.8769304,5.12092482 C85.7128376,4.95969173 85.4467906,4.95969173 85.2826978,5.12092482 L81.1230696,9.20806165 C80.9589768,9.36929475 80.9589768,9.63070525 81.1230696,9.79193835 L85.2826978,13.8790752 C85.4467906,14.0403083 85.7128376,14.0403083 85.8769304,13.8790752 C86.0410232,13.7178421 86.0410232,13.4564316 85.8769304,13.2951985 L81.7173022,9.20806165 Z" id="btn_back-copy-35" transform="translate(83.500000, 9.500000) rotate(-270.000000) translate(-83.500000, -9.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

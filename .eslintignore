@@ -1,0 +1,6 @@
+test/unit/coverage/**
+test/unit/*.js
+test/e2e/*.js
+src/renderer/components/assets/lib/**
+src/renderer/components/assets/api/lib/**
+src/renderer/components/PaintPageView/assets/lib/**

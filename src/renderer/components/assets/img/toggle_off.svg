@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="50px" viewBox="0 0 12 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>btn_close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="studio_blockly_3.0" transform="translate(-2329.000000, -960.000000)">
+            <g id="btn_close" transform="translate(2329.000000, 960.000000)">
+                <g id="btn_expand">
+                    <g id="Combined-Shape" fill="#DBDBDB">
+                        <path d="M11,49.551187 L0,44.6142435 L0,5.38575652 L11,0.448813043 L11,49.551187 Z M1,6 L1,44 L11,48.4549544 L11,1.55536004 L1,6 Z"></path>
+                    </g>
+                    <polygon id="Path-31" fill="#F7F9FA" points="0.985453341 5.94470769 11.0145467 1.4871368 11.0145467 48.5231776 0.985453341 44.0552623"></polygon>
+                    <g id="arrow_expand" transform="translate(4.000000, 22.000000)" fill-rule="nonzero" fill="#D3D4D4" opacity="0.949999988">
+                        <path d="M0.573841761,3.27293684 L0.573841761,3.72706316 L3.90154432,0.548178954 C4.03281856,0.422775435 4.03281856,0.219456158 3.90154432,0.0940526393 C3.77027008,-0.0313508798 3.55743248,-0.0313508798 3.42615824,0.0940526393 L0.0984556808,3.27293684 C-0.0328185603,3.39834036 -0.0328185603,3.60165964 0.0984556808,3.72706316 L3.42615824,6.90594736 C3.55743248,7.03135088 3.77027008,7.03135088 3.90154432,6.90594736 C4.03281856,6.78054384 4.03281856,6.57722457 3.90154432,6.45182105 L0.573841761,3.27293684 Z" id="btn_back-copy-37" transform="translate(2.000000, 3.500000) rotate(-180.000000) translate(-2.000000, -3.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

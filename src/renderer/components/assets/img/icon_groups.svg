@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_Groups</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图专用" transform="translate(-241.000000, -187.000000)">
+            <g id="popout_Ueser-center" transform="translate(241.000000, 84.000000)">
+                <g id="icon_Groups" transform="translate(3.772468, 109.912412)">
+                    <polygon id="Path-26" stroke="#FFFFFF" stroke-width="1.2" points="4.52361196 0 17.2199495 0 17.2199495 7.45611837 15.5957726 7.45611837 14.0496627 9.57204142 13.1252058 7.40265403 4.50334188 7.40265403"></polygon>
+                    <polyline id="Path-25" stroke="#FFFFFF" stroke-width="1.1" points="3.6026735 2.70200513 0 2.70200513 0 9.90735214 3.6026735 9.90735214 6.30467863 11.7086889 6.30467863 9.90735214 10.8080205 9.90735214 10.8080205 8.10601539"></polyline>
+                    <g id="points" transform="translate(6.763902, 3.056828)" fill="#FFFFFF">
+                        <rect id="Rectangle-31" x="0" y="0" width="1.35100256" height="1.35100256"></rect>
+                        <rect id="Rectangle-31" x="3.6026735" y="0" width="1.35100256" height="1.35100256"></rect>
+                        <rect id="Rectangle-31" x="7.20534701" y="0" width="1.35100256" height="1.35100256"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

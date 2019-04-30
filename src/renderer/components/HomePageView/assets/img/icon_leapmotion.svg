@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_LM</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4.86306375" y="22.3137835" width="30.2415462" height="4.87568205" rx="2.43784102"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30.2415462" height="4.87568205" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <linearGradient x1="50%" y1="-14.4549256%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#383838" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#83F167" stop-opacity="0.404891304" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="us首页" transform="translate(-533.000000, -499.000000)">
+            <g id="Group" transform="translate(63.000000, 56.000000)">
+                <g id="Group-3-Copy-2" transform="translate(125.000000, 443.000000)">
+                    <g id="Group-16" transform="translate(345.000000, 0.000000)">
+                        <rect id="Rectangle-10" x="0" y="0" width="40" height="40"></rect>
+                        <rect id="Rectangle-17" fill="#D3D3D3" x="4.48650495" y="22.1201732" width="31.0155205" height="9.44772223" rx="4"></rect>
+                        <rect id="Rectangle-18" fill="#79AA44" x="28.0155205" y="29.9006504" width="2.67375177" height="0.555748367" rx="0.277874183"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E5E5E5" x="4.48650495" y="22.1201732" width="31.0155205" height="5.55748367" rx="2.77874183"></rect>
+                        <use id="Rectangle-17-Copy" stroke="#2B2B2B" mask="url(#mask-2)" stroke-width="1.2" fill="#3E3E3E" xlink:href="#path-1"></use>
+                        <path d="M5.09253148,24.9361338 L1.53594657,3.47204545 L37.7363344,3.47204545 L34.8365557,24.9361338 C34.8365557,24.9361338 34.6197082,26.8134768 33.1231775,26.8134768 C27.7102308,26.8134768 14.3423975,26.8134768 7.38781868,26.8134768 C5.23828548,26.8134768 5.09253148,24.9361338 5.09253148,24.9361338 Z" id="Path-58" fill="url(#linearGradient-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

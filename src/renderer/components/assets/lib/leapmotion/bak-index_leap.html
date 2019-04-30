@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TOUCH with Leap Motion</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+        <meta property="og:title" content="TOUCH with Leap Motion" />
+        <meta property="og:description" content="TOUCH with Leap Motion is a personal experiment by Edan Kwan." />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="480" />
+        <meta property="og:image" content="http://www.edankwan.com/experiments/touch/images/share.jpg" />
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@edankwan">
+        <meta name="twitter:url" content="http://www.edankwan.com/experiments/touch">
+        <meta name="twitter:title" content="TOUCH with Leap Motion">
+        <meta name="twitter:description" content="TOUCH with Leap Motion is a personal experiment by Edan Kwan.">
+        <meta name="twitter:image" content="http://www.edankwan.com/experiments/touch/images/share.jpg">
+
+        <!-- <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'> -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <script src="js/lan/en.js"></script>
+        <script src="js/lan/cn.js"></script>
+        <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
+        <!-- <script src="js/jquery.i18n.properties-min-1.0.9.js"></script> -->
+        <script>
+          var langDict = {};
+          function onNext() {
+            document.getElementById('next_id').style.display = 'none';
+            document.getElementById('finish_id').style.display = 'block';
+
+            document.getElementById('tips_1').style.display = 'none';
+            document.getElementById('tips_2').style.display = 'block';
+          }
+          function onFinish() {
+            document.getElementById('guide_id').style.display = 'none';
+          }
+          function onShow() {
+            document.getElementById('guide_id').style.display = 'block';
+
+            document.getElementById('next_id').style.display = 'block';
+            document.getElementById('finish_id').style.display = 'none';
+
+            document.getElementById('tips_1').style.display = 'block';
+            document.getElementById('tips_2').style.display = 'none';
+          }
+          function openCtrl(url) {
+            // console.log(url);
+            // require("shell").openExternal("http://www.baidu.com");
+            var element = window.parent.document.getElementById('open-div-id');
+            element.url = url;
+            element.click();
+          }
+          function loadLan() {
+            var language = navigator.language;
+            console.log('language = ' + language);
+            langDict = en;
+            var curDict = langDict;
+            if (language.indexOf('zh') > -1) {
+              var curDict = cn;
+              langDict = cn;
+            }
+            var allDiv = document.getElementsByTagName("div");
+            for (var i = 0; i < allDiv.length; i++) {
+              var name = allDiv[i].getAttribute('name');
+              if (name in langDict) {
+                allDiv[i].innerText = langDict[name];
+              }
+            }
+            console.log('langDict = ' + langDict);
+            // var allTags = $("span[name^='$.']");
+            // console.log('langDict 3 ');
+            // for (var i = 0; i < allTags.length; i++) {
+            //   var spanTag = allTags[i];
+            //   var name = spanTag.getAttribute('name');
+            //   name = name.replace('$.', '');
+            //   // alert(name);
+            //   var value = curDict[name];
+            //   if (value == null) {
+            //     value = curDict[name];
+            //   }
+            //   // spanTag.innerHTML =
+            // }
+          }
+          // $(document).ready(function(){
+          //   // var userName="xiaoming";
+          //   // alert(userName);
+          //   loadLan();
+          // });
+          function getLangText(name) {
+            return langDict[name];
+          }
+        </script>
+    </head>
+    <body>
+    <div id="app-nar-bar">
+      <img src="./images/btn_back.svg" alt="" class="home" />
+        <!-- <img src="../assets/img/uarm/leap_motion.svg" alt="" class="brand-logo" /> -->
+        <img src="./images/title_leap_motion.svg" height="30px" style="position:absolute;top:18px;left:80px;" />
+        <img src="./images/wenhao.svg" height="40px" style="position:absolute;top:5px;left:330px;" onclick="onShow()" />
+        <!-- <div style="position:absolute;width:50px;height:50px;top:0px;left:200px;background-color:yellow;" onclick="onShow()">
+        </div> -->
+    </div>
+        <div class="mobile" id="bg_id">
+            <p>
+              <span name="$.aabbcc">
+                Sorry, this experiment is not designed for mobile devices. But if you think your device can handle it, you can keep forward to access the experiment
+              </span>
+                <span class="mobile-bypass" name="$.ddcc">here
+                </span>.
+              </p>
+            <p>
+              <span name="$.grrg">Or you check out the</span>
+              <a href="https://www.youtube.com/watch?v=ws3DKUe5xPE" target="_blank">video capture</a> of this experiment instead. The source code is also accessible at <a href="https://github.com/edankwan/touch-leap-motion" target="_blank">Github</a>.
+            </p>
+            <p>Sorry for any inconvenience caused.</p>
+            <p>Cheers,</p>
+            <p><a href="http://www.edankwan.com/" target="_blank">Edan Kwan</a>.</p>
+        </div>
+        <div class="logo"></div>
+        <div class="footer">
+            <span id="pause-text"></span>
+            <!--<span><a href="http://www.edankwan.com/" target="_blank">Edan Kwan</a></span>-->
+            <!--<span>|</span>-->
+            <!--<span><a href="https://github.com/edankwan/touch-leap-motion" target="_blank">Github</a></span>-->
+            <!--<span>|</span>-->
+            <!--<span><a href="https://www.youtube.com/watch?v=ws3DKUe5xPE" target="_blank">Youtube</a></span>-->
+        </div>
+        <!-- <div style="background-color:red;width:100px;height:40px;" onclick="window.history.back()"> -->
+        <div class="guide" id="guide_id">
+          <div class="next" id="next_id" onclick="onNext()">Next ></div>
+          <div class="next finish" id="finish_id" onclick="onFinish()">Finish</div>
+          <div id="tips_1">
+            <div class="tips">Tips</div>
+            <div class="tips_1_1">Control uArm with your hand motion,
+via Leap Motion (LM), a third-party devices for hand tracking.</div>
+            <div class="tips_1_2">
+              <pre>Before continuing, please ensure:
+            1. You already have a <a href='#' onclick="openCtrl('https://store-world.leapmotion.com/products/leap-motion-controller')"> Leap Motion Controller</a>.
+            2. You already finsihed the <a href='#' onclick="openCtrl('https://www.leapmotion.com/setup/desktop')">Leap Motion Desktop Set Up</a>.</pre>
+            </div>
+            <img style="position:absolute;left:120px;top:110px;" width="210px" src="./images/product_swift.png" />
+            <img style="position:absolute;left:350px;top:185px;" width="180px" src="./images/leap_motion2.png" />
+          </div>
+          <div id="tips_2" style="display:none;">
+            <div class="tips">Tips</div>
+            <div class="tips_2" style="left:124px;top:48px;">1. Plug uArm & Leap Motion Controller into your computer.</div>
+            <div class="tips_2" style="left:124px;top:78px;">2. Place Leap Motion Controller in the way that you are facing the Green light.</div>
+            <div style="position:absolute;left:294px;top:105px;">
+              <img src="./images/leap_motion.png" width="100px" height="30px" style=""/>
+            </div>
+            <div class="tips_2" style="left:124px;top:148px;">3. Ensure the Leap Motion software is on.</div>
+            <div class="tips_2" style="left:158px;top:182px;font-size:10px;font-family: .PingFangSC-Light;">Green light on: Connected</div>
+            <div style="position:absolute;left:284px;top:181px;">
+              <img src="./images/screent_shot.png" width="247px" height="20px" style=""/>
+            </div>
+            <div class="tips_2" style="left:124px;top:207px;">4. Start playing!</div>
+            <div style="position:absolute;top:240px;width:660px;margin:0 auto;left:0;right:0;">
+              <div style="float:left;">
+                <div class="move_tips">
+                  Move
+                </div>
+                <img src="./images/move1_move.png" width="165px"/>
+              </div>
+              <div style="float:left;">
+                <div class="move_tips">
+                  Catch
+                </div>
+                <img src="./images/move2_down.png" width="185px"/>
+              </div>
+              <div style="float:left;">
+                <div class="move_tips">
+                  Move
+                </div>
+                <img src="./images/move3_up.png" width="155px"/>
+              </div>
+              <div style="float:left;">
+                <div class="move_tips">
+                  Release
+                </div>
+                <img src="./images/move4_drop.png" width="155px"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- <div class="footer">
+          <span><a href="http://www.edankwan.com/" target="_blank">Edan Kwan</a></span>
+          <span>|</span>
+          <span><a href="https://github.com/edankwan/touch-leap-motion" target="_blank">Github</a></span>
+          <span>|</span>
+          <span><a href="https://www.youtube.com/watch?v=ws3DKUe5xPE" target="_blank">Youtube</a></span>
+        </div> -->
+        <script>
+            // window.uarm = require('electron').remote.getGlobal('uarm');
+            window.UArm = window.parent.UArm;
+            window.uarm = UArm;
+            document.getElementById('guide_id').style.display = window.parent.isLeapLoaded == true ? 'none' : 'block';
+            window.parent.isLeapLoaded = true;
+            window.focus();
+        </script>
+        <script src="js/three.r76.min.js"></script>
+        <script src="js/index.js"></script>
+        <script>
+          // loadLan();
+        </script>
+    </body>
+</html>

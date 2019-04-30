@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>WebSocket</title>
+
+<style>
+    html,body {
+        font:normal 0.9em arial,helvetica;
+    }
+    #log {
+        width:800px;
+        height:400px;
+        border:1px solid #7F9DB9;
+        overflow:auto;
+    }
+    #msg {
+        width:700px;
+    }
+</style>
+
+<script>
+    var socket;
+
+    function init(){
+        var host = this.location.host
+        host = "ws://" + host + "/ws";
+        try{
+            socket = new WebSocket(host);
+            socket.onopen = function(msg) {
+                log("Open Connection!");
+            };
+            socket.onmessage = function(msg) {
+                log(msg.data);
+            };
+            socket.onclose = function(msg) {
+                log("Lose Connection!");
+            };
+        } catch(ex) {
+            log(ex);
+        }
+        $("msg").focus();
+    }
+
+    function send() {
+        var txt, msg;
+        txt = $("msg");
+        msg = txt.value;
+        if (!msg) {
+            alert("Message can not be empty");
+            return;
+        }
+        txt.value="";
+        txt.focus();
+        try {
+            socket.send(msg);
+        } catch(ex) {
+            log(ex);
+        }
+    }
+
+    function send_command(command) {
+        try {
+            socket.send(command);
+        } catch(ex) {
+            log(ex);
+        }
+    }
+    function start_report_position() {
+        send_command('{"id": "123456", "data": "", "cmd": "uarm_start_report_position"}')
+    }
+    function stop_report_position() {
+        send_command('{"id": "123456", "data": "", "cmd": "uarm_stop_report_position"}')
+    }
+
+    window.onbeforeunload = function() {
+        try {
+            socket.send('quit');
+            socket.close();
+            socket=null;
+        }
+        catch(ex) {
+            log(ex);
+        }
+    };
+
+    function show(msg) {
+
+    }
+
+
+    function $(id) {
+        return document.getElementById(id);
+    }
+    function log(msg) {
+        $("log").innerHTML+="<br>"+msg;
+    }
+    function onkey(event) {
+        if(event.keyCode==13) {
+            send();
+        }
+    }
+</script>
+
+</head>
+
+
+<body onload="init()">
+    <h3>WebSocket</h3>
+    <br><br>
+    <div id="log"></div>
+    <input id="msg" type="textbox" onkeypress="onkey(event)"/>
+    <button onclick="send()">发送</button>
+    <br><br>
+    <button onclick="start_report_position()">Start Report Position</button>
+    <button onclick="stop_report_position()">Stop Report Position</button>
+</body>
+
+</html>

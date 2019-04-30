@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>grayscale_a</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.7%" y="-1.2%" width="101.4%" height="102.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.699909651   0 0 0 0 0.699909651   0 0 0 0 0.699909651  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Draw&amp;laser3.1_main_popout_selection-of-outline-or-Grayscale" transform="translate(-551.000000, -376.000000)" fill="#555555">
+            <g id="Draw/laser3.1">
+                <g id="popout_selection_outlie/grayscale_default" filter="url(#filter-1)" transform="translate(280.000000, 276.000000)">
+                    <g id="Group-4" transform="translate(73.000000, 77.000000)">
+                        <g id="grayscale" transform="translate(175.000000, 0.000000)">
+                            <g id="A" transform="translate(23.000000, 23.000000)">
+                                <path d="M0,54 L24.1938202,0 L29.8061798,0 L54,54 L47.5533708,54 L41.3342697,39.8297872 L12.4382022,39.8297872 L6.14325843,54 L0,54 Z M14.7893258,34.3914894 L38.9831461,34.3914894 L26.9241573,7.04680851 L14.7893258,34.3914894 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

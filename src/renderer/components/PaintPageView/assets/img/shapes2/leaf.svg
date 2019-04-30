@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>leaf</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="leaf" transform="translate(8.000000, 5.000000)">
+            <rect id="Rectangle-107" fill="#000000" x="11.9868717" y="10.4182654" width="1" height="20.5" rx="0.5"></rect>
+            <path d="M12.1050475,17.6398556 L6.46961903,12.4219289 L12.1050475,17.6398556 Z M12.5746665,12.8025891 C14.8630848,10.9213501 16.9956348,9 16.9956348,9 L12.5746665,12.8025891 Z M12.8949525,20.5651728 L18.6992596,15.9837754 L12.8949525,20.5651728 Z" id="Line-Copy-4" stroke="#000000" stroke-linecap="round"></path>
+            <g id="leaves" stroke="#000000">
+                <path d="M12.3474028,25.5 C19.0570406,25.5 24.5,19.9571217 24.5,13.1151333 C24.5,5.44275458 21.1525485,0.5 15.0336085,0.5 C7.64518319,0.5 0.5,5.80338244 0.5,12.1231831 C0.5,19.2357602 5.87471117,25.5 12.3474028,25.5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

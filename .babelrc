@@ -1,0 +1,46 @@
+{
+  "comments": false,
+  "env": {
+    "development": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ],
+      "plugins": [
+        ["babel-plugin-webpack-alias", { "config": "config/webpack.main.config.js", "findConfig": true }]
+      ]
+    },
+    "testing-unit": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ],
+      "plugins": [
+        "istanbul"
+      ]
+    },
+    "testing-e2e": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ]
+    },
+    "main": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ]
+    },
+    "renderer": {
+      "presets": [
+        [
+          "es2015"
+        ],
+        "stage-0"
+      ]
+    }
+  },
+  "plugins": [
+    "transform-runtime"
+  ]
+}

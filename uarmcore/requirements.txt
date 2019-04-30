@@ -1,0 +1,9 @@
+
+future==0.16.0
+lxml
+pillow==4.0.0
+pyserial==3.3
+six==1.10.0
+tornado
+numpy
+pyinstaller=3.3

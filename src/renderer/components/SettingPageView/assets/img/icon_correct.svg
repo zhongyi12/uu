@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_correct</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="troubleshooting02_2" transform="translate(-429.000000, -348.000000)">
+            <g id="BLOCKLY_troubleshooting02－1">
+                <g id="icon_correct" transform="translate(429.000000, 348.000000)">
+                    <g transform="translate(0.627963, 0.627963)">
+                        <ellipse id="2" fill="#27C828" opacity="0.200000003" cx="10.8419553" cy="11.1516422" rx="10.7340526" ry="10.8153712"></ellipse>
+                        <ellipse id="1" fill="#6EBD6F" cx="10.8419553" cy="11.1516422" rx="8.94504381" ry="9.01280929"></ellipse>
+                        <path d="M8.58034382,12.6640429 L6.27474268,10.3584417 L4.31202861,12.3211558 L6.63735725,14.6464844 L6.63575115,14.6481231 L8.51113493,16.5592339 L14.9884119,10.0483609 L17.0947936,7.94197928 L15.1320795,5.97926522 L8.58034382,12.6640429 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

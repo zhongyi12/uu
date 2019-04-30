@@ -1,0 +1,3 @@
+[submodule "pyuarm"]
+	path = pyuarm
+	url = ../../software/pyuarm.git

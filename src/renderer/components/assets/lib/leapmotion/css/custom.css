@@ -1,0 +1,118 @@
+*{margin:0,padding:0;}
+#app-nar-bar {
+  display: flex;
+  height: 56px;
+}
+#pause-text {
+  color: white;
+  font-size: 40px;
+  /*background: yellow;*/
+  width: 100%;
+  text-align: center;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
+.home {
+    height: 40px;
+    margin: 12px 16px;
+    padding: 8px;
+    padding-right: 20px;
+    border-right: 2px #505050 solid;
+    cursor: pointer;
+}
+.brand-logo {
+    height: 40px;
+    margin: 12px 0;
+    padding: 8px;
+}
+.guide {
+  position: relative;
+  background-color: white;
+  margin:0 auto;
+  margin-top: 100px;
+  height: 420px;
+  width: 686px;
+  display: none;
+}
+.next {
+  position: absolute;
+  background: #5A93D7;
+  line-height: 15px;
+  border-radius: 2px;
+  margin: 0 auto;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+
+  display:inline-block;
+  line-height: 30px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  font-family: .PingFangSC-Regular;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0.76px;
+  cursor: pointer;
+}
+.finish {
+  display: none;
+}
+.tips {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  font-family: PingFangSC-Light;
+  font-size: 12px;
+  color: #D95E2E;
+  width: 200px;
+  text-align: center;
+  margin:0 auto;
+}
+.tips_1_1 {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  right: 0;
+  font-family: PingFangSC-Light;
+  font-size: 12px;
+  color: #555555;
+  width: 343px;
+  text-align: center;
+  margin:0 auto;
+}
+.tips_1_2 pre {
+  position: absolute;
+  top: 288px;
+  left: 0;
+  right: 0;
+  font-family: PingFangSC-Light;
+  font-size: 12px;
+  color: #555555;
+  width: 400px;
+  text-align: center;
+  margin:0 auto;
+}
+.tips_2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #555555;
+  width: 500px;
+  text-align: left;
+}
+.move_tips {
+  font-family: .PingFangSC-Light;
+  font-size: 10px;
+  color: #555555;
+  top:-50px;
+  margin:0 auto;
+  margin-left:0;
+  margin-right:0;
+  text-align:center;
+}

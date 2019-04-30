@@ -1,0 +1,241 @@
+$themeOrange:#D95E2E;
+.modal-custom {
+  min-width: 260px;
+  width: 50vw;
+  text-align: center;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 19px 60px rgba(0,0,0,.298039), 0 15px 20px rgba(0,0,0,.219608);
+  .mu-dialog-title{
+    color:$themeOrange;
+    font-size: 1.1rem;
+  }
+  //.mu-dialog-actions {
+  //  margin-bottom:16px;
+  //}
+  input {
+    &[type=number] {
+      margin: 0;
+      font-size: 1rem;
+      background: white;
+      border: 1px solid #D2D2D2;
+      border-radius: 1px;
+      height: 2vw;
+      max-height: 50px !important;
+      width: 9vw;
+    }
+    &[disabled] {
+      background: #F5F5F5;
+    }
+    &[type=number]:focus {
+      border-bottom: 1px solid #D2D2D2;
+      box-shadow: none;
+      background: white;
+    }
+  }
+  td {
+    line-height: 2rem;
+    padding: 2px;
+  }
+  .row {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .modal-left {
+    img{
+      width: 100%;
+    }
+    .modal-lefttext{
+      padding-top: 1.5vw;
+      font-size: .9rem;
+    }
+  }
+  .modal-right{
+    width: 100%;
+    img{
+      width: 27vw;
+    }
+  }
+  .mu-raised-button {
+    display:block;
+    margin:0 auto;
+    border-radius: 2px;
+    max-height: 30px !important;
+    line-height:0 !important;
+    color:#fff;
+    font-size:12px !important;
+  }
+  .mu-checkbox {
+    color: #555;
+    font-size :10px;
+    padding-top:10px;
+    font-weight:normal;
+    margin: 0 auto;
+    margin-bottom:30px;
+    .mu-checkbox-icon {
+      margin-right:6px !important;
+      .mu-checkbox-svg-icon {
+        width:20px;
+        height:20px;
+        color:#555;
+      }
+    }
+  }
+}
+
+.model-tip {
+  overflow: visible;
+  min-width: 260px;
+  width: 60vw;
+  text-align: center;
+  max-width: 800px !important;
+  .mu-dialog-title {
+    font-size:16px !important;
+  }
+  .mu-checkbox {
+    color: #555;
+    font-size :10px;
+    padding-top:10px;
+    font-weight:normal;
+    .mu-checkbox-icon {
+      margin-right:6px !important;
+      .mu-checkbox-svg-icon {
+        width:20px;
+        height:20px;
+        color:#555;
+      }
+    }
+  }
+  .title {
+    flex-direction: column;
+    font-size: 16px;
+    color: #d95e2e;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 24px 24px 20px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .main1 {
+    padding:0 20px 20px;
+    .img-wrapper {
+      width:46%;
+      margin: 0 auto;
+      img {
+        width:100%;
+      }
+    }
+    .two-img-wrapper {
+      display:flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      width:92%;
+      margin:0 auto;
+      padding-bottom:20px;
+      .img1 {
+        margin:0 20px;
+        width: 46%;
+        img {
+          width:100%;
+          padding-bottom:20px;
+        }
+      }
+    }
+  }
+  .main2 {
+    padding-bottom: 30px;
+    position: relative;
+    .wrapper {
+      width:100%;
+      position:relative;
+      display:flex;
+      font-size: 12px;
+      color: #555555;
+    }
+    .img-wrapper {
+      width:46%;
+      margin:0 auto;
+      padding-bottom:30px;
+      .img {
+        width:100%;
+        height:100%;
+      }
+    }
+    .tip-text {
+      padding:0;
+      padding-bottom:14px;
+    }
+    .tip-text-small {
+      width:30%;
+      font-size:12px;
+      margin:20px auto 10px;
+      text-align:center;
+      color:#252525;
+    }
+  }
+  .tip-text {
+    text-align:center;
+    width:100%;
+    padding:20px 0;
+    color:#252525;
+    font-size:14px;
+  }
+  .orange-color {
+    color:#D95E2E;
+  }
+/**button**/
+  .mu-flat-button {
+    background: #52BF53;
+    display:block;
+    margin:0 auto;
+    border-radius: 2px;
+    color: #fff;
+    max-height: 30px !important;
+    line-height:0 !important;
+    color:#fff;
+    font-size:12px;
+    padding: 0 10px;
+  }
+  .img-wrapper-com {
+    padding-bottom:30px;
+  }
+}
+
+//.mu-dialog-actions {
+//  display: none;
+//}
+/**color-dialog放在组件内没有应用样式**/
+.color-dialog {
+  position: absolute;
+  top:30%;
+  left:30%;
+  min-width: 250px;
+  max-width:384px;
+  .mu-item-wrapper.disabled {
+    text-align: center;
+    padding-left:7px;
+  }
+  .mu-item-left {
+    left:44px;
+    .mu-avatar {
+      width:17px;
+      height:17px;
+      background:#fff;
+    }
+  }
+  .mu-item-title {
+    font-size:12px;
+  }
+
+}

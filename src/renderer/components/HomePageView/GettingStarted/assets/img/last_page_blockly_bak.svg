@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="122px" height="118px" viewBox="0 0 122 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>last page_blockly</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.6%" y="-0.8%" width="103.3%" height="103.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-1883.000000, -2886.000000)">
+            <g id="9th" transform="translate(1735.000000, 2644.000000)">
+                <g id="ICON_BLOCKLY" filter="url(#filter-1)" transform="translate(148.000000, 242.000000)">
+                    <g id="last-page_blockly">
+                        <path d="M57.1305901,107.751886 L76.9611253,107.751886 L76.9611253,117.940627 L61.0655336,117.940627 L19.5562652,117.940627 L19.6495179,61.0327164 L25.4010509,61.0374138 L29.2275063,64.8295715 L33.0476601,61.043659 L121.000995,61.1154926 L121.000995,80.099768 L38.8054947,80.0169919 L38.7122419,107.751886 L47.4249068,107.751886 L52.2777485,112.56123 L57.1305901,107.751886 Z" id="Combined-Shape" fill="#F0D13A"></path>
+                        <ellipse id="Oval" fill="#000000" opacity="0.100000001" cx="29.1640692" cy="72.2956563" rx="3.83119535" ry="3.79685509"></ellipse>
+                        <polygon id="Triangle-5-Copy" fill="#FCDD5D" points="46.1252908 78.2621429 57.6188769 78.2621429 51.8720839 83.9574255"></polygon>
+                        <g id="Group-6" transform="translate(53.892453, 16.218238) rotate(-360.000000) translate(-53.892453, -16.218238) translate(19.892453, 0.718238)">
+                            <path d="M13.1509349,26.5779856 L67.1373648,26.5779856 L67.1373648,3.55271368e-15 L0.0914462342,3.55271368e-15 L0.0914462342,26.5779856 L5.45634927,26.5779856 L9.30364208,30.3907939 L13.1509349,26.5779856 Z" id="Combined-Shape" fill="#71CC8C"></path>
+                            <rect id="Rectangle-14" fill="#FFFFFF" opacity="0.600000024" x="21.2486424" y="5.27220449" width="38.3119535" height="15.8166135" rx="1.125"></rect>
+                            <ellipse id="Oval" fill="#5BAB73" cx="9.21194063" cy="12.5838626" rx="3.83119535" ry="3.79685509"></ellipse>
+                        </g>
+                        <g id="Group-8" transform="translate(42.659888, 84.005285)">
+                            <path d="M5.74679302,-1.77635684e-15 L0,-1.77635684e-15 L0,20.882703 L56.6266134,20.882703 L56.6266134,-1.77635684e-15 L13.4091837,-1.77635684e-15 L9.57798837,4.1765406 L5.74679302,-7.77156117e-16 Z" id="Combined-Shape" fill="#50C5D4"></path>
+                            <rect id="Rectangle-14-Copy-3" fill="#FFFFFF" opacity="0.600000024" x="22.5247864" y="4.74606886" width="30.0570688" height="11.3905653"></rect>
+                            <polygon id="Triangle-5-Copy-2" fill="#50C5D4" points="3.83119535 18.9842754 15.3247814 18.9842754 9.57798837 24.6795581"></polygon>
+                            <ellipse id="Oval-Copy" fill="#3E9FAD" cx="9.57798837" cy="11.3905653" rx="3.83119535" ry="3.79685509"></ellipse>
+                        </g>
+                        <g id="Group-8-Copy" transform="translate(39.532919, 47.209470) rotate(-4.000000) translate(-39.532919, -47.209470) translate(1.532919, 34.709470)">
+                            <path d="M5.74679302,20.882703 L2.67608158e-12,20.882703 L2.67608158e-12,5.32018873e-12 L5.74679302,5.32018873e-12 L9.57798837,4.1765406 L13.4091837,5.31835687e-12 L75.3028051,5.32018873e-12 L75.3028051,20.882703 L13.4091837,20.882703 L9.57798837,24.6795581 L5.74679302,20.882703 Z" id="Combined-Shape" fill="#E37D7D"></path>
+                            <rect id="Rectangle-14-Copy-3" fill="#FFFFFF" opacity="0.600000024" x="32.4330503" y="4.74606886" width="38.3119535" height="11.3905653"></rect>
+                            <ellipse id="Oval-Copy" fill="#CD5E5E" cx="9.57798837" cy="11.3905653" rx="3.83119535" ry="3.79685509"></ellipse>
+                        </g>
+                        <rect id="Rectangle-14-Copy" fill="#FFFFFF" opacity="0.600000024" x="73.8413609" y="65.0529159" width="38.3119535" height="11.3905653"></rect>
+                        <rect id="Rectangle-14-Copy-2" fill="#FFFFFF" opacity="0.600000024" x="39.1855445" y="65.0529159" width="26.6389462" height="11.3905653"></rect>
+                        <path d="M20.1934716,60.870668 L25.969143,60.870668 L17.8832031,48.2357553 L9.79726314,60.870668 L15.5729345,60.870668 L15.5729345,70.6340097 L20.1934716,70.6340097 L20.1934716,60.870668 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.125" transform="translate(17.883203, 59.434882) rotate(-30.000000) translate(-17.883203, -59.434882) "></path>
+                        <path d="M20.1934716,60.870668 L25.969143,60.870668 L17.8832031,48.2357553 L9.79726314,60.870668 L15.5729345,60.870668 L15.5729345,70.6340097 L20.1934716,70.6340097 L20.1934716,60.870668 Z" id="Combined-Shape" fill="#000000" transform="translate(17.883203, 59.434882) rotate(-30.000000) translate(-17.883203, -59.434882) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

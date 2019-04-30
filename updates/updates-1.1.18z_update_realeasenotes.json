@@ -1,0 +1,274 @@
+{
+  "software": {
+    "uArmStudio-win-x64": {
+      "url": "http://update.ufactory.cc/releases/studio/uArmStudio-x64-prod-1.1.13-p1.exe",
+      "releaseNote": {
+        "cn": [
+          "Blockly - 支持Grove模块（颜色／超声波／小风扇／手势／电磁铁／温湿度）",
+          "Blockly - 文件另存为功能",
+          "增加“一键故障排查”功能",
+          "画画/雕刻 - 增加暂停打印功能；支持.svg矢量图导入；明确uArm活动范围",
+          "3D打印 - 上报温度错误数据",
+          "用户账号 - 增加“使用条款”和“隐私政策”说明"
+        ],
+        "en": [
+          "Blockly - Support Grove Modules(Color/Ultrasonic/Mini-fan/Gesture/Electromagnet/Temperature&Humidity)",
+          "Blockly - add \"save as\" feature",
+          "Add one-click-troubleshooting feature ",
+          "Draw/Laser - Add \"pause\" feature; Support Vector file (.svg); Specify reachable area",
+          "3D Printing - Report \"temperature error' ",
+          "User Account - Add \"Terms & Conditions\", \"Privacy Policy\" & \"About\""
+        ]
+      },
+      "version": "1.1.13-p1",
+      "publishDate": "2017-07-28",
+      "name": "uArm Studio"
+    },
+    "uArmStudio-mac-x64": {
+      "url": "http://update.ufactory.cc/releases/studio/uArmStudio-prod-1.1.13-p1.dmg",
+      "releaseNote": {
+        "cn": [
+          "1.1.13-p1 修复了1.1.13固件无法升级的问题",
+          "Blockly - 支持Grove模块（颜色／超声波／小风扇／手势／电磁铁／温湿度）",
+          "Blockly - 文件另存为功能",
+          "增加“一键故障排查”功能",
+          "画画/雕刻 - 增加暂停打印功能；支持.svg矢量图导入；明确uArm活动范围",
+          "3D打印 - 上报温度错误数据",
+          "用户账号 - 增加“使用条款”和“隐私政策”说明"
+        ],
+        "en": [
+          "1.1.13-p1 Fix 1.1.13 firmware can not upgrade",
+          "Blockly - Support Grove Modules(Color/Ultrasonic/Mini-fan/Gesture/Electromagnet/Temperature&Humidity)",
+          "Blockly - add \"save as\" feature",
+          "Add one-click-troubleshooting feature ",
+          "Draw/Laser - Add \"pause\" feature; Support Vector file (.svg); Specify reachable area",
+          "3D Printing - Report \"temperature error' ",
+          "User Account - Add \"Terms & Conditions\", \"Privacy Policy\" & \"About\""
+        ]
+      },
+      "version": "1.1.13-p1",
+      "publishDate": "2017-07-28",
+      "name": "uArm Studio"
+    },
+    "uArmStudio-linux-x64": {
+      "url": "http://update.ufactory.cc/releases/studio/uArmStudio-prod-1.1.13-p1.AppImage",
+      "releaseNote": {
+        "cn": [
+          "Blockly - 支持Grove模块（颜色／超声波／小风扇／手势／电磁铁／温湿度）",
+          "Blockly - 文件另存为功能",
+          "增加“一键故障排查”功能",
+          "画画/雕刻 - 增加暂停打印功能；支持.svg矢量图导入；明确uArm活动范围",
+          "3D打印 - 上报温度错误数据",
+          "用户账号 - 增加“使用条款”和“隐私政策”说明"
+        ],
+        "en": [
+          "Blockly - Support Grove Modules(Color/Ultrasonic/Mini-fan/Gesture/Electromagnet/Temperature&Humidity)",
+          "Blockly - add \"save as\" feature",
+          "Add one-click-troubleshooting feature ",
+          "Draw/Laser - Add \"pause\" feature; Support Vector file (.svg); Specify reachable area",
+          "3D Printing - Report \"temperature error' ",
+          "User Account - Add \"Terms & Conditions\", \"Privacy Policy\" & \"About\""
+        ]
+      },
+      "version": "1.1.13-p1",
+      "publishDate": "2017-07-28",
+      "name": "uArm Studio"
+    }
+  },
+  "swiftpro4": {
+    "introduction": {
+      "cn": "Swift Pro 固件",
+      "en": "Swift Pro Firmware"
+    },
+    "url": "http://update.ufactory.cc/releases/firmware/swiftpro-prod-4.2.0.hex",
+    "category": "firmware",
+    "version": "4.2.0",
+    "releaseNote": {
+      "cn": [
+        "4.2.0"
+      ],
+      "en": [
+        "4.2.0"
+      ]
+    },
+    "name": "SwiftPro",
+    "publishDate": "2018-09-01"
+  },
+  "swiftpro": {
+    "introduction": {
+      "cn": "Swift Pro 固件",
+      "en": "Swift Pro Firmware"
+    },
+    "url": "http://update.ufactory.cc/releases/firmware/swiftpro-prod-3.2.0.hex",
+    "category": "firmware",
+    "version": "3.2.0",
+    "releaseNote": {
+      "cn": [
+        "修复3D打印的温度问题"
+      ],
+      "en": [
+        "Fix 3D printing temperature issue"
+      ]
+    },
+    "name": "SwiftPro",
+    "publishDate": "2017-11-02"
+  },
+  "firmware": {
+    "swiftpro4": {
+      "introduction": {
+        "cn": "Swift Pro 固件",
+        "en": "Swift Pro Firmware"
+      },
+      "url": "http://update.ufactory.cc/releases/firmware/swiftpro-prod-4.2.0.hex",
+      "category": "firmware",
+      "releaseNote": {
+        "cn": [
+          "4.2.0"
+        ],
+        "en": [
+          "4.2.0"
+        ]
+      },
+      "version": "4.2.0",
+      "publishDate": "2018-09-01",
+      "name": "SwiftPro"
+    },
+    "swiftpro": {
+      "introduction": {
+        "cn": "Swift Pro 固件",
+        "en": "Swift Pro Firmware"
+      },
+      "url": "http://update.ufactory.cc/releases/firmware/swiftpro-prod-3.1.16.hex",
+      "category": "firmware",
+      "releaseNote": {
+        "cn": [
+          "支持 OpenMV (M2500)",
+          "优化学习模式性能"
+        ],
+        "en": [
+          "Support OpenMV (M2500)",
+          "Improve learning mode performance"
+        ]
+      },
+      "version": "3.1.16",
+      "publishDate": "2017-07-31",
+      "name": "SwiftPro"
+    },
+    "swift": {
+      "introduction": {
+        "cn": "Swift 固件",
+        "en": "Swift Firmware"
+      },
+      "url": "http://update.ufactory.cc/releases/firmware/swift-prod-2.3.6.hex",
+      "category": "firmware",
+      "releaseNote": {
+        "cn": [
+          "修改了 Grove 上报格式为 @10 N* V*",
+          "学习模式结束后位置问题"
+        ],
+        "en": [
+          "Modify Grove Report Format to @10 N* V*",
+          "Fix Learning mode finish position issue"
+        ]
+      },
+      "version": "2.3.6",
+      "publishDate": "2017-07-14",
+      "name": "Swift"
+    }
+  },
+  "CuraForuArm": {
+    "introduction": {
+      "cn": "3D打印前，请下载uArm Studio和CuraForuArm.",
+      "en": "For 3D printing, please download both uArm Studio and CuraForuArm."
+    },
+    "url": {
+      "win": "http://update.ufactory.cc/releases/cura/CuraForuArm-x64-prod-1.0.4.exe",
+      "linux": "http://update.ufactory.cc/releases/cura/CuraForuArm-prod-1.0.4.AppImage",
+      "mac": "http://update.ufactory.cc/releases/cura/CuraForuArm-prod-1.0.4.dmg"
+    },
+    "category": "software",
+    "releaseNote": {
+      "cn": [
+        "修复保存零点功能"
+      ],
+      "en": [
+        "Fixed issue of saving zero point."
+      ]
+    },
+    "version": "1.0.4",
+    "publishDate": "2017-08-03",
+    "name": "CuraForuArm"
+  },
+  "FirmwareFlashTool": {
+    "introduction": {
+      "cn": "官方固件刷新工具",
+      "en": "Official Firmware flash tool."
+    },
+    "url": {
+      "win": "http://update.ufactory.cc/releases/software/FirmwareFlashTool-pro-1.2.3.exe",
+      "linux": "http://update.ufactory.cc/releases/software/FirmwareFlashTool-pro-1.2.3.AppImage",
+      "mac": "http://update.ufactory.cc/releases/software/FirmwareFlashTool-pro-1.2.3.dmg"
+    },
+    "category": "software",
+    "releaseNote": {
+      "cn": [
+        "支持多端口选择",
+        "修复日志文件夹创建错误"
+      ],
+      "en": [
+        "Support Multiple Port selection",
+        "Fix Log folder create issue"
+      ]
+    },
+    "version": "1.2.3",
+    "publishDate": "2017-07-24",
+    "name": "FirmwareFlashTool"
+  },
+  "swift": {
+    "introduction": {
+      "cn": "Swift 固件",
+      "en": "Swift Firmware"
+    },
+    "url": "http://update.ufactory.cc/releases/firmware/swift-prod-2.3.6.hex",
+    "category": "firmware",
+    "releaseNote": {
+      "cn": [
+        "修改了 Grove 上报格式为 @10 N* V*",
+        "学习模式结束后位置问题"
+      ],
+      "en": [
+        "Modify Grove Report Format to @10 N* V*",
+        "Fix Learning mode finish position issue"
+      ]
+    },
+    "version": "2.3.6",
+    "publishDate": "2017-07-28",
+    "name": "Swift"
+  },
+  "uArmStudio": {
+    "introduction": {
+      "en": "uArm Studio is an all-in-one software for controlling uArm Swift & uArm Swift Pro. It includes driver installation and firmware upgrade. ",
+      "cn": "uArm Studio是 uArm Swift 和 uArm Swift Pro 的控制软件，包含驱动安装和固件更新。"
+    },
+    "url": {
+      "mac": "http://update.ufactory.cc/releases/studio/uArmStudio-prod-1.1.18.dmg",
+      "win": "http://update.ufactory.cc/releases/studio/uArmStudio-x64-prod-1.1.18.exe",
+      "linux": "http://update.ufactory.cc/releases/studio/uArmStudio-prod-1.1.18.AppImage"
+    },
+    "category": "software",
+    "releaseNote": {
+      "cn": [
+        "1. 支持切换固件V3.2.0 与V4.2.0",
+        "2. 修复若干Bug。"
+      ],
+      "en": [
+        "1. Support Switch Firmare V3.2.0 and V4.2.0",
+        "2. Fix some bugs."
+      ]
+    },
+    "version": "1.1.18",
+    "minimumFirmware": "3.2.0",
+    "publishDate": "2018-10-15",
+    "name": "uArmStudio"
+  }
+}

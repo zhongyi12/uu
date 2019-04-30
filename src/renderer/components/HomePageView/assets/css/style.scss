@@ -1,0 +1,204 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    .left-wrapper {
+      width: 74%;
+      margin: 0 auto;
+      //overflow-y: auto;
+      .container-fluid {
+        //margin:0 auto;
+        //padding:0;
+        //height:100%;
+        //width:100%;
+        .logo-text {
+          display: flex;
+          font-family: BankGothicBold;
+          font-size: 3.4rem;
+          text-align: center;
+          line-height: 1em;
+          padding: 2.2rem 0;
+        }
+      }
+      .get-start {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 76%;
+        margin: 0 auto;
+        img {
+          width:100%;
+          min-width: 600px;
+        }
+
+        .inner {
+          padding: 2rem 3rem;
+          font-size: 2rem;
+          color: #FFFFFF;
+          opacity: 0.8;
+          background: #333333;
+          border-radius: 100px;
+          text-align: center;
+          font-weight:700;
+          position:absolute;
+          top:30%;
+        }
+        a{
+          outline: none;
+          position:absolute;
+          top:74%;
+          .btn {
+            display: inline-block;
+            font-size: 2rem;
+            font-weight:700;
+            text-decoration: none;
+            transition:.3s;
+            padding-left:3rem;
+            padding-right:3rem;
+            text-align: center;
+            opacity: 0.8;
+            background-color:#fff;
+            border-radius: 2.6vw;
+            color: #555;
+            box-shadow: 0 1px 16px 0 rgba(54,54,54,0.50);
+          }
+          .btn:hover {
+            color: #555;
+            background-color:#fff;
+            opacity:0.9;
+          }
+        }
+      }
+    }
+    .sidebar-wrapper {
+      width: 30%;
+      background-color: #F6F6F6;
+      .sidebar-nav {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+        li {
+          padding: 3%;
+
+        }
+
+        #uarm-product-image img {
+          height: 32vh;
+        }
+
+      }
+      .table {
+
+        td {
+          padding: 1% 4%;
+
+        }
+
+        td:first-child {
+          width: 50%;
+          text-align: right;
+
+        }
+
+        td:last-child {
+          width: 50%;
+          text-align: left;
+          max-width: 1px;
+          word-wrap: normal;
+          overflow: hidden;
+
+        }
+
+      }
+    }
+  }
+}
+
+.banner .btn:hover {
+  background: rgba(255, 255, 255, .15);
+
+}
+
+.banner .btn:active {
+  -webkit-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+  -moz-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+  /*-ms-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));*/
+  -o-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+  filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+
+}
+
+.banner .btn, .banner .dot {
+  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+  -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+  /*-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));*/
+  -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+
+}
+
+.banner .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+
+}
+
+#footer {
+  background: #3C3C3C;
+  font-size: 1.2rem;;
+  color: #CECECE;
+  width: 100%;
+  z-index: 1;
+
+  nav ul {
+    float: initial;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0% 6%;
+    margin-top: 20px;
+
+    li {
+      width: 17%;
+
+    }
+
+  }
+  a {
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 0.63px;
+
+  }
+
+  a:hover {
+    color: white;
+    border-radius: 5px;
+    background-color: #333;
+
+  }
+
+  .tabName {
+    padding-top: 5%;
+
+  }
+
+}
+.home-side-wrapper .news-wrapper .msg-wrapper {
+  height:60vh !important;
+}

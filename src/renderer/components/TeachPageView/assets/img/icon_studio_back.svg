@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="15px" viewBox="0 0 9 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="YCH-Teach&amp;Play界面" transform="translate(-1903.000000, -138.000000)" fill="#555555">
+            <g id="teach&amp;play(Redesign)" transform="translate(1876.000000, 110.000000)">
+                <g id="icon_back" transform="translate(27.000000, 26.000000)">
+                    <g transform="translate(0.000000, 2.000000)" id="Btn_back">
+                        <path d="M0.31369617,7.07426071 L0.310503269,7.07106781 L7.38157108,1.77635684e-15 L8.23009925,0.848528171 L1.68535704,7.39327039 L8.23009925,14.0710678 L7.38157108,14.919596 L1.88737914e-15,7.38795688 L0.31369617,7.07426071 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_USER-ID" transform="translate(-2897.000000, -54.000000)" fill="#FFFFFF">
+            <g id="btn_Topright" transform="translate(2739.000000, 53.972534)">
+                <g id="icon_delete" transform="translate(163.000000, 5.998752)">
+                    <rect id="Rectangle-4" x="3.01081588" y="0" width="11.5414609" height="1.45391091"></rect>
+                    <rect id="Rectangle-4-Copy" x="0" y="2.90782181" width="17.5630926" height="1.45391091"></rect>
+                    <path d="M1.50540794,4.36173272 L3.01081588,2.90782181 L3.01081588,15.508383 L14.5522767,15.508383 L14.5522767,2.90782181 L16.0576847,4.36173272 L1.50540794,4.36173272 Z M16.0576847,2.90782181 L16.0576847,16.9622939 L1.50540794,16.9622939 L1.50540794,2.90782181 L16.0576847,2.90782181 Z" id="Rectangle-13" fill-rule="nonzero"></path>
+                    <rect id="Rectangle-15" x="5.51982911" y="5.81564362" width="1.50540794" height="8.23882847"></rect>
+                    <rect id="Rectangle-15-Copy" x="10.5378556" y="5.81564362" width="1.50540794" height="8.23882847"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "FirmwareConfig": {
+    "metal": {
+      "chip": "atmega328p",
+      "productName": "Metal",
+      "programmer": "arduino",
+      "hardwareVersion": "2.1",
+      "pid": "6001",
+      "vid": "0403"
+    },
+    "swift": {
+      "chip": "atmega2560",
+      "productName": "Swift",
+      "hardwareVersion": "3.2.0",
+      "programmer": "wiring",
+      "pid": "0042",
+      "vid": "2341"
+    },
+    "swiftpro": {
+      "chip": "atmega2560",
+      "productName": "SwiftPro",
+      "hardwareVersion": "3.3.0",
+      "programmer": "wiring",
+      "pid": "0042",
+      "vid": "2341"
+    },
+    "swiftpro4": {
+      "chip": "atmega2560",
+      "productName": "SwiftPro",
+      "hardwareVersion": "4.2.0",
+      "programmer": "wiring",
+      "pid": "0042",
+      "vid": "2341"
+    }
+  },
+  "HardwareVersionMapping": {
+    "2.1": "metal",
+    "3.2.0": "swift",
+    "3.2.1": "swift",
+    "3.3.0": "swiftpro",
+    "3.3.1": "swiftpro",
+    "4.2.0": "swiftpro4"
+  },
+  "CompatibleVersion": {
+    "swiftpro": "3.1.30"
+  }
+}

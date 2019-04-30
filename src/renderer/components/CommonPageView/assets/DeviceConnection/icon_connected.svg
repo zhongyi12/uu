@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_correct@14X14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="---------------" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_home_connected" transform="translate(-105.000000, -356.000000)">
+            <g id="Status">
+                <g transform="translate(82.000000, 348.000000)">
+                    <g id="btn_connect">
+                        <g id="connected" transform="translate(23.000000, 8.000000)">
+                            <g id="icon_correct">
+                                <circle id="2" fill="#D9E2D0" cx="7" cy="7" r="7"></circle>
+                                <circle id="1" fill="#6EBD6F" cx="7" cy="7" r="5"></circle>
+                                <path d="M6.02007342,8.16310495 L4.92188411,7.06491564 L4,7.98679974 L5.10738563,9.09418537 L5.09944077,9.10229033 L5.9802424,10 L9.04571856,6.91874386 L10.0425783,5.92188411 L9.1206942,5 L6.02007342,8.16310495 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

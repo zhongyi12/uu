@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_home</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.875,9.5471485 L20.125,9.5471485 L20.125,23.9542631 L2.875,23.9542631 L2.875,9.5471485 Z M5.43055556,9.5471485 L5.43055556,22.0058728 L17.3564815,22.0058728 L17.3564815,9.5471485 L5.43055556,9.5471485 Z" id="path-1"></path>
+        <rect id="path-2" x="8.49098435" y="6.21594399" width="15.585812" height="2.57142857"></rect>
+        <rect id="path-3" x="-1.00764263" y="5.93084092" width="15.585812" height="2.57142857"></rect>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-1760.000000, -186.000000)">
+            <g id="1st(copy)" transform="translate(1735.000000, 167.000000)">
+                <g id="icon_home" transform="translate(25.000000, 19.000000)">
+                    <g id="Icon_home">
+                        <rect id="Rectangle-17" fill="#D95E2E" x="9.58333333" y="18.1914173" width="3.83333333" height="3.84189723"></rect>
+                        <g id="Combined-Shape">
+                            <use fill="#D95E2E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#D95E2E" stroke-width="3" d="M4.375,11.0471485 L18.625,11.0471485 L18.625,22.4542631 L4.375,22.4542631 L4.375,11.0471485 Z M3.93055556,9.5471485 L3.93055556,22.0058728 L3.93055556,23.5058728 L5.43055556,23.5058728 L17.3564815,23.5058728 L18.8564815,23.5058728 L18.8564815,22.0058728 L18.8564815,9.5471485 L18.8564815,8.0471485 L17.3564815,8.0471485 L5.43055556,8.0471485 L3.93055556,8.0471485 L3.93055556,9.5471485 Z"></path>
+                        </g>
+                        <g id="Rectangle-62" transform="translate(16.283890, 7.501658) scale(1, -1) rotate(-45.000000) translate(-16.283890, -7.501658) ">
+                            <use fill="#D95E2E" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#D95E2E" stroke-width="3" x="9.99098435" y="7.71594399" width="12.585812" height="1"></rect>
+                        </g>
+                        <g id="Rectangle-62" transform="translate(6.785263, 7.216555) rotate(-45.000000) translate(-6.785263, -7.216555) ">
+                            <use fill="#D95E2E" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#D95E2E" stroke-width="3" x="0.492357367" y="7.43084092" width="12.585812" height="1"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

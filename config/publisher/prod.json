@@ -1,0 +1,121 @@
+{
+  "publish": {
+    "name": "uArmStudio",
+    "channel": "prod",
+    "category": "software",
+    "remoteUrl": "http://update.ufactory.cc/releases/studio"
+  },
+  "transports": [
+    {
+      "accessKey": "g2U1VIVROURlpRqkFMe119HznYOp-mop5jobBrw1",
+      "bucketName": "update",
+      "module": "qiniu",
+      "refreshToken": "0UWc-rtrlHuvqtl39zDqgDqnOW0=",
+      "remotePath": "releases/studio/",
+      "secretKey": "mgp_EwYwbcz0LubmUZi56gPr70gSI5OYkh2OJxS5"
+    },
+    {
+      "module": "ssh",
+      "remotePath": "/var/www/html/releases/studio",
+      "hostname": "uarm.studio",
+      "port": 22,
+      "username": "publisher",
+      "password": "ufactory"
+    }
+  ],
+  "updatesJson": [
+    {
+      "transport": "qiniu",
+      "hostUrl": "http://update.ufactory.cc/releases/history.json?v={random}",
+      "remotePath": "releases",
+      "targetFileName": "history.json",
+      "mode": "history"
+    },
+    {
+      "transport": "qiniu",
+      "hostUrl": "http://update.ufactory.cc/releases/updates.json?v={random}",
+      "remotePath": "releases",
+      "targetFileName": "updates.json",
+      "mode": "current"
+    },
+    {
+      "transport": "ssh",
+      "hostUrl": "http://uarm.studio/releases/updates_prod.json",
+      "remotePath": "/var/www/html/releases",
+      "targetFileName": "updates_prod.json",
+      "mode": "current",
+      "remoteUrl": "http://uarm.studio/releases/studio"
+    },
+    {
+      "transport": "ssh",
+      "hostUrl": "http://uarm.studio/releases/history_prod.json",
+      "remotePath": "/var/www/html/releases",
+      "targetFileName": "history_prod.json",
+      "mode": "history",
+      "remoteUrl": "http://uarm.studio/releases/studio"
+    }
+  ],
+  "releases": [
+    {
+      "releaseName": "{name}",
+      "key": {
+        "{name}": {}
+      },
+      "uploadFiles": [
+        {
+          "name": "mac",
+          "targetFileName": "{name}-{channel}-{version}.dmg",
+          "uploadFilePath": "build/{name}-mac-{version}.dmg"
+        },
+        {
+          "name": "win",
+          "targetFileName": "{name}-x64-{channel}-{version}.exe",
+          "uploadFilePath": "build/{name}-win-{version}.exe"
+        },
+        {
+          "name": "linux",
+          "targetFileName": "{name}-{channel}-{version}.AppImage",
+          "uploadFilePath": "build/{name}-{version}-x86_64.AppImage"
+        }
+      ],
+      "fields": {
+        "introduction": {
+          "en": "uArm Studio is an all-in-one software for controlling uArm Swift & uArm Swift Pro. It includes driver installation and firmware upgrade. ",
+          "cn": "uArm Studio是 uArm Swift 和 uArm Swift Pro 的控制软件，包含驱动安装和固件更新。"
+        },
+        "releaseNote": {
+          "cn": [
+            "1. 兼容支持新版固件(4.0及4.0以上)。",
+            "2. 支持免登录操作。",
+            "3. 支持LeapMotion模块操作，优化抖动问题。",
+            "4. 优化示教功能，增加解锁电机功能，支持指定初始录制位置。",
+            "5. 优化Control性能，分离夹子和吸泵的控制。",
+            "6. 优化Blockly性能。",
+            "7. 画板支持激光控制，方便用户对激光调焦。",
+            "8. 优化交互功能。",
+            "9. 修复若干Bug。"
+          ],
+          "en": [
+            "1. Compatible with the new firmware (4.0 and 4.0 above).",
+            "2. No login operation.",
+            "3. Support the LeapMotion module operation, optimize the jitter problem.",
+            "4. Optimize the teach & play function, add the unlock motor function, support the original specified recording location.",
+            "5. Optimize the Control performance, the clip and suction pump can be separately controled.",
+            "6. Optimize the Blockly performance.",
+            "7. The drawing board support the laser Control, for users’ convenience in laser focusing.",
+            "8. Optimize the interaction function.",
+            "9. Fix some bugs."
+          ]
+        },
+        "url": {
+          "mac": "{remoteUrl}/{name}-{channel}-{version}.dmg",
+          "win": "{remoteUrl}/{name}-x64-{channel}-{version}.exe",
+          "linux": "{remoteUrl}/{name}-{channel}-{version}.AppImage"
+        },
+        "minimumFirmware": "{minimumFirmware}",
+        "category": "software",
+        "name": "{name}"
+      }
+    }
+  ]
+}

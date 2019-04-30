@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="5px" height="4px" viewBox="0 0 5 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_User Center_Expand</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Studio_home_connected" transform="translate(-173.000000, -49.000000)" fill="#656565">
+            <g id="Top-user-info">
+                <g transform="translate(106.000000, 33.000000)">
+                    <polygon id="icon_User-Center_Expand" transform="translate(69.500000, 18.000000) scale(1, -1) translate(-69.500000, -18.000000) " points="69.5 16 72 20 67 20"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

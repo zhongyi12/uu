@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.7%" y="-1.2%" width="101.4%" height="102.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.699909651   0 0 0 0 0.699909651   0 0 0 0 0.699909651  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="YCH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Draw&amp;laser3.1_main_popout_selection-of-outline-or-Grayscale" transform="translate(-397.000000, -436.000000)">
+            <g id="Draw/laser3.1">
+                <g id="popout_selection_outlie/grayscale_default" filter="url(#filter-1)" transform="translate(280.000000, 276.000000)">
+                    <g id="Group-4" transform="translate(73.000000, 77.000000)">
+                        <g id="outline">
+                            <g id="icon_selected" transform="translate(44.000000, 83.000000)">
+                                <g transform="translate(1.000000, 1.000000)">
+                                    <circle id="1" fill="#6EBD6F" cx="5" cy="5" r="5"></circle>
+                                    <path d="M4.2651461,5.93757819 L3.26739,4.93982209 L2.42981539,5.7773967 L3.43592676,6.78350808 L3.42870849,6.79087181 L4.22895776,7.60648282 L7.01408551,4.80701822 L7.91977898,3.90132475 L7.08220436,3.06375014 L4.2651461,5.93757819 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

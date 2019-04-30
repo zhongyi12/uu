@@ -1,0 +1,129 @@
+{
+  "publish": {
+    "name": "uArmStudio",
+    "channel": "beta",
+    "category": "software",
+    "remoteUrl": "http://beta.ufactory.cc/releases/studio"
+  },
+  "transports": [
+    {
+      "accessKey": "g2U1VIVROURlpRqkFMe119HznYOp-mop5jobBrw1",
+      "bucketName": "beta",
+      "module": "qiniu",
+      "refreshToken": "0UWc-rtrlHuvqtl39zDqgDqnOW0=",
+      "remotePath": "releases/studio/",
+      "secretKey": "mgp_EwYwbcz0LubmUZi56gPr70gSI5OYkh2OJxS5"
+    },
+    {
+      "module": "ssh",
+      "remotePath": "/var/www/html/releases/studio",
+      "hostname": "uarm.studio",
+      "port": 22,
+      "username": "publisher",
+      "password": "ufactory"
+    }
+  ],
+  "updatesJson": [
+    {
+      "transport": "qiniu",
+      "hostUrl": "http://beta.ufactory.cc/releases/updates.json?v={random}",
+      "remotePath": "releases",
+      "targetFileName": "updates.json",
+      "mode": "current"
+    },
+    {
+      "transport": "qiniu",
+      "hostUrl": "http://beta.ufactory.cc/releases/history.json?v={random}",
+      "remotePath": "releases",
+      "targetFileName": "history.json",
+      "mode": "history"
+    },
+    {
+      "transport": "ssh",
+      "hostUrl": "http://uarm.studio/releases/updates_beta.json",
+      "remotePath": "/var/www/html/releases",
+      "targetFileName": "updates_beta.json",
+      "mode": "current"
+    },
+    {
+      "transport": "ssh",
+      "hostUrl": "http://uarm.studio/releases/history_beta.json",
+      "remotePath": "/var/www/html/releases",
+      "targetFileName": "history_beta.json",
+      "mode": "history"
+    }
+  ],
+  "releases": [
+    {
+      "releaseName": "{name}",
+      "key": {
+        "{name}": {}
+      },
+      "uploadFiles": [
+        {
+          "name": "mac",
+          "targetFileName": "{name}-{channel}-{version}.dmg",
+          "uploadFilePath": "build/{name}-{channel}-{version}.dmg"
+        },
+        {
+          "name": "win",
+          "targetFileName": "{name}-x64-{channel}-{version}.exe",
+          "uploadFilePath": "build/{name}-x64-{channel}-{version}.exe"
+        },
+        {
+          "name": "linux",
+          "targetFileName": "{name}-{channel}-{version}.AppImage",
+          "uploadFilePath": "build/{name}-{channel}-{version}.AppImage"
+        }
+      ],
+      "fields": {
+        "introduction": {
+          "en": "uArm Studio is an all-in-one software for controlling uArm Swift & uArm Swift Pro. It includes driver installation and firmware upgrade. ",
+          "cn": "uArm Studio是 uArm Swift 和 uArm Swift Pro 的控制软件，包含驱动安装和固件更新。"
+        },
+        "releaseNote": {
+          "cn": [
+            "Beta.7 修复弹窗指引问题",
+            "Beta.5-6 修复reset无法结束，Grove 弹窗问题",
+            "Beta.4 修复了删除Block死机的问题",
+            "Beta.3 添加了 OLED, LCD，空气质量，光线，震动马达，加速度指南针，循线",
+            "Beta.3 修复更改 PIN 出错问题",
+            "Beta.3 修复 Grove 作为子 Block 无法释放的问题",
+            "Beta.3 修复空 Block 时出错问题",
+            "Beta.2 更新了 Grove 手势判断和颜色区间的逻辑",
+            "Beta.2 新增加 Grove 滑动变阻器, 按钮",
+            "Beta.1 新增加 Grove 可串联LED",
+            "Beta.1 兼容新版 Grove 固件",
+            "Beta.1 取消初始化 PIN",
+            "Beta.1 可以同时使用相同的 Grove 类型",
+            "Beta.1 支持拓展板，增加 1, 2, 3, 4, 5 端口"
+          ],
+          "en": [
+            "Beta.7 修复弹窗指引问题",
+            "Beta.5-6 修复reset无法结束，Grove 弹窗问题",
+            "Beta.4 修复了删除Block死机的问题",
+            "Beta.3 添加了 OLED, LCD，空气质量，光线，震动马达，加速度指南针，循线",
+            "Beta.3 修复更改 PIN 出错问题",
+            "Beta.3 修复 Grove 作为子 Block 无法释放的问题",
+            "Beta.3 修复空 Block 时出错问题",
+            "Beta.2 更新了 Grove 手势判断和颜色区间的逻辑",
+            "Beta.2 新增加 Grove 滑动变阻器, 按钮",
+            "Beta.1 新增加 Grove 可串联LED",
+            "Beta.1 兼容新版 Grove 固件",
+            "Beta.1 取消初始化 PIN",
+            "Beta.1 可以同时使用相同的 Grove 类型",
+            "Beta.1 支持拓展板，增加 1, 2, 3, 4, 5 端口"
+          ]
+        },
+        "url": {
+          "mac": "{remoteUrl}/{name}-{channel}-{version}.dmg",
+          "win": "{remoteUrl}/{name}-x64-{channel}-{version}.exe",
+          "linux": "{remoteUrl}/{name}-{channel}-{version}.AppImage"
+        },
+        "minimumFirmware": "{minimumFirmware}",
+        "category": "software",
+        "name": "{name}"
+      }
+    }
+  ]
+}

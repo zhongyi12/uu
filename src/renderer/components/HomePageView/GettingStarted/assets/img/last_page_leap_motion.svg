@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="132px" height="103px" viewBox="0 0 132 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>last page_leap motion</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.5%" y="-1.0%" width="103.0%" height="103.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M12.8285914,72.0108124 C12.8285914,69.7742342 14.650155,67.9611294 16.8819046,67.9611294 L117.659849,67.9611294 C119.898432,67.9611294 121.713163,69.7688518 121.713163,72.0108124 L121.713163,80.9604003 C121.713163,83.4505145 119.706754,85.4691509 117.207517,85.4691509 L17.3342368,85.4691509 C14.8458375,85.4691509 12.8285914,83.4607582 12.8285914,80.9604003 L12.8285914,72.0108124 Z" id="path-2"></path>
+        <linearGradient x1="50%" y1="-14.4549256%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#383838" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#83F167" stop-opacity="0.404891304" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="YCH-WORKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uArm-Studio_Getting-started" transform="translate(-509.000000, -1535.000000)">
+            <g id="12th（copy）" transform="translate(309.000000, 1080.000000)">
+                <g id="Group" transform="translate(200.000000, 235.000000)">
+                    <g id="icon_leap-motion" filter="url(#filter-1)" transform="translate(0.000000, 220.000000)">
+                        <g id="last-page_leap-motion">
+                            <path d="M11.4727928,71.7709679 C11.4727928,69.2828859 13.4823506,67.2658969 15.9713532,67.2658969 L118.645495,67.2658969 C121.129982,67.2658969 123.144056,69.2865056 123.144056,71.7709679 L123.144056,96.3488981 C123.144056,99.0234466 120.975886,101.191596 118.309838,101.191596 L16.3070106,101.191596 C13.6371459,101.191596 11.4727928,99.0177827 11.4727928,96.3488981 L11.4727928,71.7709679 Z" id="Rectangle-17" fill="#D3D3D3"></path>
+                            <rect id="Rectangle-18" fill="#79AA44" x="96.1889233" y="95.2047083" width="9.626833" height="1.99562939" rx="0.997814693"></rect>
+                            <rect id="Rectangle-17-Copy" fill="#E5E5E5" x="11.4727928" y="67.2658969" width="111.671263" height="19.9562939" rx="4.5"></rect>
+                            <g id="Rectangle-17-Copy">
+                                <use fill="#3E3E3E" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <path stroke="#2B2B2B" stroke-width="0.675" d="M13.1660914,72.0108124 C13.1660914,69.9631414 14.8340356,68.2986294 16.8819046,68.2986294 L117.659849,68.2986294 C119.714036,68.2986294 121.375663,69.9572441 121.375663,72.0108124 L121.375663,80.9604003 C121.375663,83.2680476 119.516437,85.1316509 117.207517,85.1316509 L17.3342368,85.1316509 C15.028626,85.1316509 13.1660914,83.2707576 13.1660914,80.9604003 L13.1660914,72.0108124 Z"></path>
+                            </g>
+                            <path d="M13.654789,77.3776921 L0.849318665,0.302583995 L131.188677,0.302583995 L120.748034,77.3776921 C120.748034,77.3776921 119.967276,84.1190182 114.579023,84.1190182 C95.0897287,84.1190182 46.9588963,84.1190182 21.9189618,84.1190182 C14.1795757,84.1190182 13.654789,77.3776921 13.654789,77.3776921 Z" id="Path-58" fill="url(#linearGradient-3)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
